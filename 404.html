@@ -11,30 +11,27 @@
     <link rel="stylesheet" href="https://www.szchenxi.cf/css/bootstrap.min.css">
     <style type="text/css">
         h1 {
-            font-size: 2.5rem;
             display: inline;
         }
 
         h2 {
-            font-size: 2rem;
             display: inline;
         }
 
         h3 {
-            font-size: 1.75rem;
+            display: inline;
         }
 
         h4 {
-            font-size: 1.5rem;
+            display: inline;
         }
 
         h5 {
-            font-size: 1.25rem;
             display: inline;
         }
 
         h6 {
-            font-size: 1rem;
+            display: inline;
         }
 
         a:link {
@@ -56,14 +53,26 @@
             color: rgba(0, 0, 0, 1);
             text-decoration: none;
         }
-        
+
         .img-responsive {
             display: block;
             height: auto;
             max-width: 100%;
         }
     </style>
-    <title>珠海十中《晨曦》校刊</title>
+    <script type="text/javascript">
+        var num = 4;
+        function redirect() {
+            num--;
+            document.getElementById("num").innerHTML = num;
+            if (num < 0) {
+                document.getElementById("num").innerHTML = 0;
+                location.href = "https://www.szchenxi.cf/";
+            }
+        }
+        setInterval("redirect()", 1000);    
+    </script>
+    <title>404 |《晨曦》校刊</title>
     <link href="https://www.szchenxi.cf/favicon.ico" rel="shortcut icon">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132568926-1"></script>
@@ -85,8 +94,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white">
             <a href="https://www.szchenxi.cf/index.html" class="navbar-brand"><img src="https://www.szchenxi.cf/images/logo.svg"
                     alt="Logo" width="50" height="50" title="Logo" align="absmiddle">
-                <img src="https://www.szchenxi.cf/images/chenxi.svg" alt="晨曦" width="54" height="32" title="Logo"
-                    align="absmiddle"></a>
+                <img src="https://www.szchenxi.cf/images/chenxi.svg" alt="晨曦" width="54" height="32" title="Logo" align="absmiddle"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -114,13 +122,15 @@
     </header>
     <main>
         <div class="container text-center py-5">
-            <h2>抱歉，页面不存在</h2>
+            <p>
+                <h3>暂时未能找到您查找的页面</h3>
+            </p>
+            <p>
+                <h5>可能输入的网址错误或此页面不存在<br>
+                    <span id="num"></span>秒后自动跳转到主页</h5>
+            </p>
+            </p>
         </div>
-        <p>
-            <div class="container text-center py-5">
-                <h3>稍后自动跳回主页</h3>
-            </div>
-        </p>
     </main>
     <footer class="text-center text-muted py-2">
         <p><a href="https://www.szchenxi.cf/about/about-cx.html" class="text-muted">关于我们</a> | <a href="#" class="text-muted">回到顶部</a>
