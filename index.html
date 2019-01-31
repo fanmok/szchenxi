@@ -20,8 +20,25 @@
     <script src="https://www.szchenxi.cf/js/jquery-3.3.1.min.js"></script>
     <script src="https://www.szchenxi.cf/js/popper.min.js"></script>
     <script src="https://www.szchenxi.cf/js/bootstrap.min.js"></script>
+    <script src="https://www.szchenxi.cf/js/jquery.js"></script>
+    <script src="https://www.szchenxi.cf/js/jquery.MyDigitclock.js"></script>
     <title>珠海十中《晨曦》校刊</title>
     <link href="https://www.szchenxi.cf/favicon.ico" rel="shortcut icon">
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(function () {
+                $("#clock2").MyDigitClock({
+                    fontSize: 30,
+                    fontFamily: "Century gothic",
+                    fontColor: "#000",
+                    fontWeight: "bold",
+                    bAmPm: true,
+                    background: '#fff',
+                    bShowHeartBeat: true
+                });
+            });
+        });
+    </script>
     <script>
         if (('standalone' in window.navigator) && window.navigator.standalone) {
             var noddy, remotes = false;
@@ -142,8 +159,17 @@
                     <div class="col-md-4 d-none d-md-block">
                         <div class="card text-center">
                             <div class="card-body">
-                                <div class="d-xl-none"><img src="images/logo.svg" alt="Logo" width="50" height="50" title="Logo" align="absmiddle"><img src="https://www.szchenxi.cf/images/chenxi.svg" alt="晨曦" width="54" height="32" title="Logo"></div>
-                                <div class="d-none d-xl-block"><img src="images/logo.svg" alt="Logo" width="50" height="50" title="Logo" align="absmiddle"><h5 class="card-title">珠海十中 <img src="https://www.szchenxi.cf/images/chenxi.svg" alt="晨曦" width="54" height="32" title="Logo"> 校刊</h5></div>
+                                <div class="d-xl-none"><img src="images/logo.svg" alt="Logo" width="50" height="50"
+                                        title="Logo" align="absmiddle"><img src="https://www.szchenxi.cf/images/chenxi.svg"
+                                        alt="晨曦" width="54" height="32" title="Logo"></div>
+                                <div class="d-none d-xl-block"><img src="images/logo.svg" alt="Logo" width="50" height="50"
+                                        title="Logo" align="absmiddle">
+                                    <h5 class="card-title">珠海十中 <img src="https://www.szchenxi.cf/images/chenxi.svg"
+                                            alt="晨曦" width="54" height="32" title="Logo"> 校刊</h5>
+                                </div>
+                                <center>
+                                    <div id="clock2"></div>
+                                </center>
                             </div>
                             <ul class="list-group list-group-flush">
                                 <a href="newspaper/newspaper.html"><button type="button" class="btn btn-primary btn-lg btn-block">校刊</button></a>
