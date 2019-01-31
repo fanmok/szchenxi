@@ -20,26 +20,8 @@
     <script src="https://www.szchenxi.cf/js/jquery-3.3.1.min.js"></script>
     <script src="https://www.szchenxi.cf/js/popper.min.js"></script>
     <script src="https://www.szchenxi.cf/js/bootstrap.min.js"></script>
-    <script src="js/jquery.js" type="text/javascript"></script>
-    <script src="js/jquery.MyDigitclock.js"></script>
-    <script type="text/javascript" src="jquery.js"></script>
     <title>珠海十中《晨曦》校刊</title>
     <link href="https://www.szchenxi.cf/favicon.ico" rel="shortcut icon">
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(function () {
-                $("#clock2").MyDigitClock({
-                    fontSize: 30,
-                    fontFamily: "Century gothic",
-                    fontColor: "#000",
-                    fontWeight: "bold",
-                    bAmPm: true,
-                    background: '#fff',
-                    bShowHeartBeat: true
-                });
-            });
-        });
-    </script>
     <script>
         if (('standalone' in window.navigator) && window.navigator.standalone) {
             var noddy, remotes = false;
@@ -168,9 +150,7 @@
                                     <h5 class="card-title">珠海十中 <img src="https://www.szchenxi.cf/images/chenxi.svg"
                                             alt="晨曦" width="54" height="32" title="Logo"> 校刊</h5>
                                 </div>
-                                <center>
-                                    <div id="clock2"></div>
-                                </center>
+                                <iframe src="http://ftp6261976.host108.sanfengyun.cn/clock.html" frameborder="0" height="40" scrolling="no"></iframe>
                             </div>
                             <ul class="list-group list-group-flush">
                                 <a href="newspaper/newspaper.html"><button type="button" class="btn btn-primary btn-lg btn-block">校刊</button></a>
