@@ -33,53 +33,6 @@
             enable_page_level_ads: true
         });
     </script>
-    <style>
-        .btn-android {
-            color: #ffffff;
-            background-color: #78C257;
-            border-color: #6DB04D;
-        }
-
-        .btn-android:hover,
-        .btn-android:focus,
-        .btn-android:active,
-        .btn-android.active,
-        .open .dropdown-toggle.btn-android {
-            color: #ffffff;
-            background-color: #65A348;
-            border-color: #6DB04D;
-        }
-
-        .btn-android:active,
-        .btn-android.active,
-        .open .dropdown-toggle.btn-android {
-            background-image: none;
-        }
-
-        .btn-android.disabled,
-        .btn-android[disabled],
-        fieldset[disabled] .btn-android,
-        .btn-android.disabled:hover,
-        .btn-android[disabled]:hover,
-        fieldset[disabled] .btn-android:hover,
-        .btn-android.disabled:focus,
-        .btn-android[disabled]:focus,
-        fieldset[disabled] .btn-android:focus,
-        .btn-android.disabled:active,
-        .btn-android[disabled]:active,
-        fieldset[disabled] .btn-android:active,
-        .btn-android.disabled.active,
-        .btn-android[disabled].active,
-        fieldset[disabled] .btn-android.active {
-            background-color: #78C257;
-            border-color: #6DB04D;
-        }
-
-        .btn-android .badge {
-            color: #78C257;
-            background-color: #ffffff;
-        }
-    </style>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
     <title>客户端 |《晨曦》校刊</title>
     <link href="https://www.szchenxi.cf/favicon.ico" rel="shortcut icon">
@@ -89,7 +42,6 @@
             font-family: 'Noto Sans SC', sans-serif;
         }
     </style>
-
 </head>
 
 <body class='lang-zh page-front' ontouchstart=''>
@@ -118,7 +70,7 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="../about/studentunion.html">珠海十中学生会</a>
                             <a class="dropdown-item" href="../about/zhsz.html">珠海市第十中学</a>
-                            <a class="dropdown-item" href="https://www.dreamstar.cf/">梦星工作室</a>
+                            <a class="dropdown-item" href="https://www.dreamstar.cf/" target="_blank">梦星工作室</a>
                         </div>
                     </li>
                 </ul>
@@ -127,102 +79,67 @@
     </header>
     <main>
         <section>
-            <div class="container py-3">
-                <div class="row pb-3">
-                    <div class="col-lg-5 py-4">
-                        <div class="pb-3" align="center"><img src="../about/images/chenxi-online.svg" alt="Logo"
-                                width="200" height="160" title="Logo"></div>
-                        <div class="card">
-                            <h5 class="card-header">最新版本</h5>
-                            <div class="card-body">
-                                <div class="card">
-                                    <h5 class="card-header"><span
-                                            class="badge badge-pill badge-primary font-italic">Release</span>
-                                        1.1 更新内容<span
-                                            class="badge badge-pill badge-welcome font-italic">2019/1/20</span></h5>
-                                    <div class="card-body">
-                                        <p class="card-text">推送功能上线<br>
-                                            代码安全加固</p>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="container py-5">
+                <div class="text-center"><h1 class="font-weight-light">客户端</h1></div>
+                <hr>
+                <div class="card-deck pt-5">
+                    <div class="card">
+                        <img src="images/Android.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="card-title font-weight-bold">Android</h3>
+                            <p class="card-text">大小：12.3MB</p>
+                            <a href="download/晨曦.exe"><button type="button" class="btn text-white btn-lg"
+                                    style="background-color: #77C159">Download</button></a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">version 1.2 2019/6/2</small>
                         </div>
                     </div>
-                    <div class="col-lg-7">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title font-weight-bold">客户端</h5>
-                                <hr>
-                                <div class="card">
-                                    <h5 class="card-header">介绍</h5>
-                                    <div class="card-body">
-                                        <p class="card-text">一个方便珠海十中学生浏览校刊及学校其他动态的应用。</p>
-                                        <p class="card-text">APP基于DCloud的web2app框架，在原网页的基础上增加功能。</p>
-                                        <p>很遗憾，虽然有安装包，但因为没有苹果开发者账号<del>$99</del>，不能在一般设备上安装。<br>
-                                            其实我们也可以开发微信小程序和QQ轻应用，但因为年龄限制不能上架，十分抱歉</p>
-                                    </div>
-                                </div>
-                                <hr>
-                                <div class="card">
-                                    <div class="card-header">
-                                        <ul class="nav nav-tabs card-header-tabs">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" href="#Android" data-toggle="tab">Android</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#iOS" data-toggle="tab">iOS</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="tab-content container py-3">
-                                        <div id="Android" class="tab-pane active">
-                                            <a href="https://www.szchenxi.cf/app/download/晨曦.apk"><button type="button"
-                                                    class="btn btn-android btn-lg btn-block"><img
-                                                        src="images/Android.svg" alt="Logo" width="30" height="35"
-                                                        title="Logo">&nbsp;&nbsp;&nbsp;点击下载</button></a>
-                                            <img src="images/qr code.png" class="img-responsive py-3 d-none d-md-block">
-                                            <hr>
-                                            <p>郑重声明：软件绝不会内置广告，加载病毒，请大家忽略安全警告并放心使用。</p>
-                                        </div>
-                                        <div id="iOS" class="tab-pane">
-                                            <p>下面教你如何创建一个Web应用。<br>
-                                            <p>1、用Safari打开网站主页，并<a href="https://www.szchenxi.cf/"><button type="button"
-                                                        class="btn btn-primary">回到主页</button></a></p>
-                                            <p>2、点击 <img src="images/iOS_01.png" width="30" height="30"><br>
-                                                <img src="images/iOS (1).jpg" class="img-responsive py-3"></p>
-                                            <p>3、点击 <img src="images/iOS_02.png" width="60" height="80"><br>
-                                                <img src="images/iOS (2).jpg" class="img-responsive py-3"></p>
-                                            <p>3、点击 <span style="text-decoration: underline;">继续</span> <br>
-                                                <img src="images/iOS (3).jpg" class="img-responsive py-3"></p>
-                                            <p>4、在主屏幕打开你的应用吧！</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
+                    <div class="card">
+                        <img src="images/Windows.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="card-title font-weight-bold">Windows</h3>
+                            <p class="card-text">大小：39.2MB</p>
+                            <a href="download/晨曦.exe"><button type="button" class="btn text-white btn-lg"
+                                    style="background-color: #0078D6">Download</button></a>
                         </div>
-                        <hr>
-                        <div class="card">
-                            <h5 class="card-header">应用截图</h5>
-                            <div class="card-body">
-                                <div class="container">
-                                    <div class="row pb-3">
-                                        <div class="col-md-4">
-                                            <img src="images/效果图 (1).png" class="img-responsive py-3">
-                                        </div>
-                                        <div class="col-md-4">
-                                            <img src="images/效果图 (2).png" class="img-responsive py-3">
-                                        </div>
-                                        <div class="col-md-4">
-                                            <img src="images/效果图 (3).png" class="img-responsive py-3">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="card-footer">
+                            <small class="text-muted">version 1.0 2019/6/2</small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/iOS.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="card-title font-weight-bold">iOS</h3>
+                            <p class="card-text">点击查看帮助文档</p>
+                            <a href="ios.html"><button type="button"
+                                    class="btn text-white bg-dark btn-lg">Document</button></a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">No version</small>
                         </div>
                     </div>
                 </div>
-                <hr>
+            </div>
+        </section>
+        <section>
+            <div class="container py-3">
+                <div class="jumbotron">
+                    <div class="text-center">
+                        <h1>晨曦</h1>
+                        <p class="lead">一个方便珠海十中学生浏览校刊及学校其他动态的应用</p>
+                    </div>
+                    <hr class="my-4">
+                    <p>Android客户端基于DCloud的web2app框架，运行速度加快，添加原生功能。</p>
+                    <p><a href="https://github.com/fanmok/szchenxi_app/" target="_blank" class="btn text-white"
+                            style="background-color: #77C159">Android项目地址</a></p>
+                    <p>Windows客户端通过web2desk转换，界面清爽，没有浏览器的冗杂，采用chromium内核，运行速度加快。</p>
+                    <p><a href="https://github.com/fanmok/szchenxi_exe/" target="_blank" class="btn text-white"
+                            style="background-color: #0078D6">Windows项目地址</a></p>
+                    <p>iOS客户端基于DCloud的web2app框架，运行速度加快，添加原生功能，因为没有苹果开发者账号<del>$99</del>不能在一般设备上安装，仅供真机测试。</p>
+                    <p>微信小程序开发中，由于国家政策开发者需18岁以上，所以不予发行。</p>
+                    <p>mac OS客户端正在调试中，即将发布。</p>
+                </div>
             </div>
         </section>
     </main>
