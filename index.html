@@ -27,34 +27,6 @@
             font-family: 'Noto Sans SC', sans-serif;
         }
     </style>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(function () {
-                $("#clock2").MyDigitClock({
-                    fontSize: 30,
-                    fontFamily: "Century gothic",
-                    fontColor: "#000",
-                    fontWeight: "bold",
-                    bAmPm: true,
-                    background: '#fff',
-                    bShowHeartBeat: true
-                });
-            });
-        });
-    </script>
-    <script>
-        if (('standalone' in window.navigator) && window.navigator.standalone) {
-            var noddy, remotes = false;
-            document.addEventListener('click', function (event) {
-                noddy = event.target;
-                while (noddy.nodeName !== 'A' && noddy.nodeName !== 'HTML') noddy = noddy.parentNode;
-                if ('href' in noddy && noddy.href.indexOf('http') !== -1 && (noddy.href.indexOf(document.location.host) !== -1 || remotes)) {
-                    event.preventDefault();
-                    document.location.href = noddy.href;
-                }
-            }, false);
-        }
-    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132568926-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -69,11 +41,21 @@
             enable_page_level_ads: true
         });
     </script>
+    <style>
+        .html5plus .html5plus-hide {
+            display: none
+        }
+    </style>
+    <script>
+        if (navigator.userAgent.indexOf("Html5Plus") > -1) {
+            document.body.classList.add("html5plus");
+        }  
+    </script>
 </head>
 
 <body class='lang-zh page-front' ontouchstart=''>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary  html5plus-hide">
             <a href="https://www.szchenxi.cf/" class="navbar-brand"><img src="https://www.szchenxi.cf/images/logo.svg"
                     alt="Logo" width="50" height="50" title="Logo" align="absmiddle">
                 <img src="https://www.szchenxi.cf/images/chenxi-white.svg" alt="晨曦" width="54" height="32" title="Logo"
@@ -185,36 +167,39 @@
                                 class="btn btn-primary btn-lg btn-block">
                                 <h3>校刊</h3>
                             </button></a>
-                            <a href="newspaper/1/index.html">
-                        <img src="newspaper/images/校刊 第一期.jpg" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">校刊 第一期</h5>
-                            <p class="card-text">2018年10月刊</p>
-                        </div></a>
+                        <a href="newspaper/1/index.html">
+                            <img src="newspaper/images/校刊 第一期.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">校刊 第一期</h5>
+                                <p class="card-text">2018年10月刊</p>
+                            </div>
+                        </a>
                     </div>
                     <div class="card">
                         <a href="notice/notice.html" class="pb-3"><button type="button"
                                 class="btn btn-info btn-lg btn-block">
                                 <h3>通知</h3>
                             </button></a><a href="app/app.html">
-                        <img src="images/Windows-carousel.png" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Windows客户端上线</h5>
-                            <p class="card-text">2019年6月</p></a>
-                        </div>
+                            <img src="images/Windows-carousel.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Windows客户端上线</h5>
+                                <p class="card-text">2019年6月</p>
+                        </a>
                     </div>
-                    <div class="card">
-                        <a href="activity/activity.html" class="pb-3"><button type="button"
-                                class="btn btn-danger btn-lg btn-block">
-                                <h3>活动</h3>
-                            </button></a><a href="activity/徽常出色.html">
+                </div>
+                <div class="card">
+                    <a href="activity/activity.html" class="pb-3"><button type="button"
+                            class="btn btn-danger btn-lg btn-block">
+                            <h3>活动</h3>
+                        </button></a><a href="activity/徽常出色.html">
                         <img src="activity/images/徽常出色-carousel.png" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title">珠海市第十中学学生会“徽常出色”会徽设计比赛</h5>
-                            <p class="card-text">2019年5月</p></a>
-                        </div>
-                    </div>
+                            <p class="card-text">2019年5月</p>
+                    </a>
                 </div>
+            </div>
+            </div>
             </div>
         </section>
         <section>
@@ -240,36 +225,37 @@
                         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                             <div class="carousel-inner">
                                 <a href="photowall/photowall.html">
-                                <div class="carousel-item active">
-                                    <img src="images/carousel (1).jpg" class="d-block w-100" alt="First">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/carousel (2).jpg" class="d-block w-100" alt="Second">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/carousel (3).jpg" class="d-block w-100" alt="Third">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/carousel (4).jpg" class="d-block w-100" alt="Fourth">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/carousel (5).jpg" class="d-block w-100" alt="Fifth">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/carousel (6).jpg" class="d-block w-100" alt="Sixth">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/carousel (7).jpg" class="d-block w-100" alt="Seventh">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/carousel (8).jpg" class="d-block w-100" alt="Eighth">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/carousel (9).jpg" class="d-block w-100" alt="Ninth">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/carousel (10).jpg" class="d-block w-100" alt="Tenth">
-                                </div></a>
+                                    <div class="carousel-item active">
+                                        <img src="images/carousel (1).jpg" class="d-block w-100" alt="First">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/carousel (2).jpg" class="d-block w-100" alt="Second">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/carousel (3).jpg" class="d-block w-100" alt="Third">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/carousel (4).jpg" class="d-block w-100" alt="Fourth">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/carousel (5).jpg" class="d-block w-100" alt="Fifth">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/carousel (6).jpg" class="d-block w-100" alt="Sixth">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/carousel (7).jpg" class="d-block w-100" alt="Seventh">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/carousel (8).jpg" class="d-block w-100" alt="Eighth">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/carousel (9).jpg" class="d-block w-100" alt="Ninth">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/carousel (10).jpg" class="d-block w-100" alt="Tenth">
+                                    </div>
+                                </a>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleFade" role="button"
                                 data-slide="prev">
