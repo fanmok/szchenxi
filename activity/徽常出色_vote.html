@@ -46,6 +46,7 @@
             document.execCommand("Copy");
             oInput.className = 'oInput';
             oInput.style.display = 'none';
+            alert('复制成功');
         }
     </script>
 </head>
@@ -98,6 +99,7 @@
                     <hr class="my-4">
                     <p>此链接由暨大翻院团委学生会发布<br>请在手机微信登录参与投票</p>
                     <div hidden id="copy">https://mp.weixin.qq.com/s/yjE19R32GtHfP9NnXIW7dg</div>
+                    <p class="card-text"><button class="btn btn-success text-white" onclick="copyText()">一键复制</button></p>
                     <p class="card-text"><a href="weixin://" class="btn btn-success text-white" onclick="copyText()">一键跳转微信</a></p>
                     <p class="card-text"><a href="徽常出色.html" class="btn btn-light">活动界面</a>&nbsp;&nbsp;<a
                             href="activity.html" class="btn btn-light">更多</a></p>
