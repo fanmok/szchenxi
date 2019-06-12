@@ -42,7 +42,7 @@
             font-family: 'Noto Sans SC', sans-serif;
         }
     </style>
-<style>
+    <style>
         .html5plus .html5plus-hide {
             display: none
         }
@@ -57,8 +57,9 @@
 <body class='lang-zh page-front' ontouchstart=''>
     <header class="html5plus-hide">
         <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-            <a href="https://www.szchenxi.cf" class="navbar-brand"><img src="https://www.szchenxi.cf/images/logo_white.svg"
-                    alt="Logo" width="40" height="40" title="Logo" align="absmiddle">
+            <a href="https://www.szchenxi.cf" class="navbar-brand"><img
+                    src="https://www.szchenxi.cf/images/logo_white.svg" alt="Logo" width="40" height="40" title="Logo"
+                    align="absmiddle">
                 <img src="https://www.szchenxi.cf/images/chenxi-white.svg" alt="晨曦" width="54" height="32" title="Logo"
                     align="absmiddle"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
@@ -90,7 +91,9 @@
     <main>
         <section>
             <div class="container py-5">
-                <div class="text-center"><h1 class="font-weight-light">客户端</h1></div>
+                <div class="text-center">
+                    <h1 class="font-weight-light">客户端</h1>
+                </div>
                 <hr>
                 <div class="card-deck pt-5">
                     <div class="card">
@@ -98,8 +101,9 @@
                         <div class="card-body text-center">
                             <h3 class="card-title font-weight-bold">Android</h3>
                             <p class="card-text">大小：12.1MB</p>
-                            <a href="https://fanmok.gitee.io/szchenxi_download/%E6%99%A8%E6%9B%A6.apk"><button type="button" class="btn text-white btn-lg"
-                                    style="background-color: #77C159">Download</button></a>
+                            <a href="https://gitee.com/fanmok/szchenxi_download/raw/master/%E6%99%A8%E6%9B%A6.apk"><button
+                                    type="button" class="btn text-white btn-lg"
+                                    style="background-color: #77C159">下载</button></a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">version 1.4 2019/6/11</small>
@@ -110,8 +114,9 @@
                         <div class="card-body text-center">
                             <h3 class="card-title font-weight-bold">Windows</h3>
                             <p class="card-text">大小：39.2MB</p>
-                            <a href="https://fanmok.gitee.io/szchenxi_download/%E6%99%A8%E6%9B%A6.exe"><button type="button" class="btn text-white btn-lg"
-                                    style="background-color: #0078D6">Download</button></a>
+                            <a href="https://gitee.com/fanmok/szchenxi_download/raw/master/%E6%99%A8%E6%9B%A6.exe"><button
+                                    type="button" class="btn text-white btn-lg"
+                                    style="background-color: #0078D6">下载</button></a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">version 1.1 2019/6/9</small>
@@ -121,12 +126,39 @@
                         <img src="images/iOS.png" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h3 class="card-title font-weight-bold">iOS</h3>
-                            <p class="card-text">点击查看帮助文档</p>
-                            <a href="ios.html"><button type="button"
-                                    class="btn text-white bg-dark btn-lg">Document</button></a>
+                            <p class="card-text">iOS Web APP/Jailbreak IPA</p>
+                            <a href="ios.html"><button type="button" class="btn text-black bg-warning btn-lg">Web
+                                    APP</button></a>
+                            <button type="button" class="btn text-white bg-dark btn-lg" data-toggle="modal"
+                                data-target="#create">
+                                IPA
+                            </button>
+                            <div class="modal fade" id="create" tabindex="-1" role="dialog"
+                                aria-labelledby="createLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="createLabel">提示</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            一般用户请打开帮助文档创建Web APP（推荐）<br>
+                                            测试用户可以参考教程安装未签名的IPA并承担相应风险
+                                        </div>
+                                        <div class="modal-footer center-block">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">关闭</button>
+                                            <a href="cydia-impactor.html"><button type="button"
+                                                    class="btn text-white bg-primary">教程</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">version 1.4(beta) 2019/6/11</small>
+                            <small class="text-muted">version 1.4 (beta) 2019/6/11</small>
                         </div>
                     </div>
                 </div>
@@ -141,15 +173,13 @@
                     </div>
                     <hr class="my-4">
                     <p>安装包托管至Gitee码云</p>
-                    <p>Android客户端基于DCloud的web2app框架，运行速度加快，添加原生功能。</p>
-                    <p><a href="https://github.com/fanmok/szchenxi_app/" target="_blank" class="btn text-white"
-                            style="background-color: #77C159">Android项目地址</a></p>
+                    <p>Android和iOS客户端基于DCloud的web2app框架，运行速度加快，添加原生功能。</p>
                     <p>Windows客户端通过web2desk转换，界面清爽，没有浏览器的冗杂，采用chromium内核，运行速度加快。</p>
-                    <p><a href="https://github.com/fanmok/szchenxi_exe/" target="_blank" class="btn text-white"
-                            style="background-color: #0078D6">Windows项目地址</a></p>
-                    <p>iOS客户端基于DCloud的web2app框架，运行速度加快，添加原生功能，因为没有苹果开发者账号<del>$99</del>文档里有未签名的IPA安装包，未越狱的设备可以通过<a href="https://mrmad.com.tw/cydia-impactor" target="_blank" class="font-italic"><u>Cydia Impactor</u></a>安装。</p>
-                    <p>微信小程序和快应用开发中，由于国家政策开发者需18岁以上，所以不予发行。</p>
+                    <p>iOS客户端基于DCloud的web2app框架，运行速度加快，添加原生功能，因为没有苹果开发者账号<del>$99</del>不能正常安装</p>
                     <p>macOS客户端正在调试中，即将发布。</p>
+                    <p>微信小程序和快应用开发中……</p>
+                    <p><a href="https://github.com/fanmok/szchenxi_app/" target="_blank"
+                            class="btn text-white btn-block" style="background-color: #77C159">移动端项目地址</a></p>
                 </div>
             </div>
         </section>
