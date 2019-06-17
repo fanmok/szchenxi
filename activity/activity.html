@@ -2,67 +2,43 @@
 <html lang="zh-cmn-Hans">
 
 <head>
+
+    <!--meta-->
     <meta charset="utf-8">
     <meta http-equiv='Content-Language' content='zh'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://www.szchenxi.cf/css/bootstrap.min.css">
-    <script src="https://www.szchenxi.cf/newspaper/js/bootstrap-paginator.min.js"></script>
-    <script>
-        if (('standalone' in window.navigator) && window.navigator.standalone) {
-            var noddy, remotes = false;
-            document.addEventListener('click', function (event) {
-                noddy = event.target;
-                while (noddy.nodeName !== 'A' && noddy.nodeName !== 'HTML') noddy = noddy.parentNode;
-                if ('href' in noddy && noddy.href.indexOf('http') !== -1 && (noddy.href.indexOf(document.location.host) !== -1 || remotes)) {
-                    event.preventDefault();
-                    document.location.href = noddy.href;
-                }
-            }, false);
-        }
-    </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132568926-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-132568926-1');
-    </script>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-7717011057644549",
-            enable_page_level_ads: true
-        });
-    </script>
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#07bbff" />
+    <!--title-->
     <title>活动 |《晨曦》校刊</title>
+    <!--icon-->
+    <link rel="icon" sizes="192x192" href="images/icon.png">
     <link href="https://www.szchenxi.cf/favicon.ico" rel="shortcut icon">
+    <!--css-->
+    <link rel="stylesheet" href="https://www.szchenxi.cf/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.szchenxi.cf/css/viewer.min.css">
+    <!--font-->
+    <link href="https://fonts.lug.ustc.edu.cn/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
     <style>
         body,
         html {
             font-family: 'Noto Sans SC', sans-serif;
         }
     </style>
-
-<style>
+    <!--app-->
+    <style>
         .html5plus .html5plus-hide {
             display: none
         }
     </style>
-    <script>
-        if (navigator.userAgent.indexOf("Html5Plus") > -1) {
-            document.body.classList.add("html5plus");
-        }  
-    </script>
 </head>
 
-<body class='lang-zh page-front' ontouchstart=''>
+<body class='lang-zh page-front vsc-initialized' ontouchstart=''>
     <header class="html5plus-hide">
-        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-            <a href="https://www.szchenxi.cf" class="navbar-brand"><img src="https://www.szchenxi.cf/images/logo_white.svg"
-                    alt="Logo" width="40" height="40" title="Logo" align="absmiddle">
-                <img src="https://www.szchenxi.cf/images/chenxi-white.svg" alt="晨曦" width="54" height="32" title="Logo"
-                    align="absmiddle"></a>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary shadow">
+            <a href="https://www.szchenxi.cf" class="navbar-brand"><img src="https://www.szchenxi.cf/images/logo.svg"
+                    alt="Logo" width="40" height="40" title="Logo">
+                &nbsp;&nbsp;<img src="https://www.szchenxi.cf/images/chenxi-white.svg" alt="晨曦" width="54" height="32"
+                    title="Logo"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -91,51 +67,74 @@
     </header>
     <main>
         <section>
-            <div class="container py-3">
-                <div class="pb-3"><a href="https://www.szchenxi.cf/"><button type="button"
-                            class="btn btn-info btn-lg btn-block">
-                            <h3>往期活动</h3>
-                        </button></div>
+            <div class="container py-5">
+                <div class="text-center">
+                    <h1 class="font-weight-light">活动</h1>
+                </div>
+                <hr class="pb-3">
                 <div class="row text-center py-3">
-                    <div class="card-deck">
-                        <div class="col-md-4 pb-1 pb-md-0">
-                            <a href="年味浓.html">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/年味浓-carousel.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">年味浓</h5>
-                                        <p class="card-text">2019年2月 征稿活动</p>
-                                    </div>
+                    <div class="col-md-4 pb-1 pb-md-0">
+                        <a href="年味浓.html">
+                            <div class="card">
+                                <img class="card-img-top" src="https://s2.ax1x.com/2019/06/17/VbNPV1.md.png"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">年味浓</h5>
+                                    <p class="card-text">2019年2月 征稿活动</p>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4 pb-1 pb-md-0">
-                            <a href="徽常出色.html">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/徽常出色-carousel.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">珠海市第十中学学生会“徽常出色”会徽设计比赛</h5>
-                                        <p class="card-text">2019年5月</p>
-                                    </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 pb-1 pb-md-0">
+                        <a href="徽常出色.html">
+                            <div class="card">
+                                <img class="card-img-top" src="https://s2.ax1x.com/2019/06/17/VbNiUx.md.png"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">珠海市第十中学学生会“徽常出色”会徽设计比赛</h5>
+                                    <p class="card-text">2019年5月</p>
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <footer class="html5plus-hide text-center bg-dark text-muted py-2">
-        <p class="text-white-50"><a href="../about/cx.html" class="text-white-50">关于我们</a> | <a href="#"
+        <p class="text-white-50"><a href="../about/cx.html" class="text-white-50">关于晨曦</a> | <a href="#"
                 class="text-white-50">回到顶部</a>
-            | <a href="../about/online.html" class="text-white-50">更新记录</a></p>
+            | <a href="../about/online.html" class="text-white-50">关于网站</a></p>
         <a href="../about/wxs.html" class="text-white-50">
             <p>Copyright © 晨曦文学社 All rights reserved.</p>
         </a>
     </footer>
+    <!--script-->
     <script src="https://www.szchenxi.cf/js/jquery-3.3.1.min.js"></script>
     <script src="https://www.szchenxi.cf/js/popper.min.js"></script>
     <script src="https://www.szchenxi.cf/js/bootstrap.min.js"></script>
+    <!--app-->
+    <script>
+        if (navigator.userAgent.indexOf("Html5Plus") > -1) {
+            document.body.classList.add("html5plus");
+        }  
+    </script>
+    <!--Google Analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132568926-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-132568926-1');
+    </script>
+    <!--Google AdSense-->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-7717011057644549",
+            enable_page_level_ads: true
+        });
+    </script>
 </body>
 
 </html>
