@@ -97,12 +97,13 @@
                                 <hr>
                                 <p class="card-text"><button id="share" class="btn btn-outline-primary">客户端专用分享</button>
                                 </p>
-                                <div class="html5plus-hide share-component" data-sites="qq,qzone,wechat,weibo,tencent" data-mobile-sites="qq,qzone,weibo,tencent"></div>
+                                <div class="html5plus-hide share-component" data-sites="qq,qzone,wechat,weibo,tencent"
+                                    data-mobile-sites="qq,qzone,weibo,tencent"></div>
                                 <div class="html5plus-hide">
                                     <hr>
-                                <p><a href="activity.html"
-                                        class="btn btn-outline-primary">更多活动</a>
-                                </p></div>
+                                    <p><a href="activity.html" class="btn btn-outline-primary">更多活动</a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -129,36 +130,28 @@
         }
     </script>
     <!--share-->
-    <script src="plusShare.js"></script>
-    <script src="jquery.share.min.js"></script>
+    <script src="https://www.szchenxi.cf/js/plusShare.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/jquery.share.min.js"></script>
     <script>
         document.getElementById("share").addEventListener("click", function () {
             if (navigator.userAgent.indexOf("Html5Plus") > -1) {
-                //分享内容，开发者可自定义  
-                var message = {
-                    title: "徽常出色", //应用名字  
+                //5+ 原生分享  
+                window.plusShare({
+                    title: "晨曦",//应用名字  
                     content: "珠海市第十中学学生会“徽常出色”会徽设计比赛",
-                    href: "https://www.szchenxi.cf/activity/徽常出色.html", //分享出去后，点击跳转地址  
+                    href: location.href,//分享出去后，点击跳转地址  
                     thumbs: ["https://www.szchenxi.cf/images/icon.png"] //分享缩略图  
-                }
-                //调起分享  
-                plusShare(message, function (res) {
-                    //分享回调函数  
-                    if (res) {
-                        plus.nativeUI.toast("分享成功");
-                    } else {
-                        plus.nativeUI.toast("分享失败");
-                    }
-                })
-            }
-            else {
+                }, function (result) {
+                    //分享回调  
+                });
+            } else {
+                //跳转到App下载地址
                 window.location.href = "https://www.szchenxi.cf/app/app.html";
             }
         });
     </script>
     <!--viewer-->
     <script src="https://cdn.bootcss.com/viewerjs/1.3.3/viewer.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/jquery.share.min.js"></script>
     <script>
         window.addEventListener('DOMContentLoaded', function () {
             var galley = document.getElementById('galley');
