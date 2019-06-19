@@ -16,14 +16,14 @@ xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://www.szchenxi.cf/newspaper/newspaper.html</loc>
+ <loc>https://www.szchenxi.cf/newspaper/index.html</loc>
  <mobile:mobile type="pc,mobile" />
  <priority>0.5</priority>
  <lastmod>2019-06-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://www.szchenxi.cf/photowall/photowall.html</loc>
+ <loc>https://www.szchenxi.cf/photowall/index.html</loc>
  <mobile:mobile type="pc,mobile" />
  <priority>0.5</priority>
  <lastmod>2019-06-18</lastmod>
@@ -37,7 +37,7 @@ xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://www.szchenxi.cf/app/app.html</loc>
+ <loc>https://www.szchenxi.cf/app/index.html</loc>
  <mobile:mobile type="pc,mobile" />
  <priority>0.5</priority>
  <lastmod>2019-06-18</lastmod>
@@ -93,7 +93,7 @@ xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://www.szchenxi.cf/app/app.html</loc>
+ <loc>https://www.szchenxi.cf/app/index.html</loc>
  <mobile:mobile type="pc,mobile" />
  <priority>0.5</priority>
  <lastmod>2019-06-18</lastmod>
@@ -114,14 +114,14 @@ xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://www.szchenxi.cf/newspaper/newspaper.html</loc>
+ <loc>https://www.szchenxi.cf/newspaper/index.html</loc>
  <mobile:mobile type="pc,mobile" />
  <priority>0.5</priority>
  <lastmod>2019-06-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://www.szchenxi.cf/photowall/photowall.html</loc>
+ <loc>https://www.szchenxi.cf/photowall/index.html</loc>
  <mobile:mobile type="pc,mobile" />
  <priority>0.5</priority>
  <lastmod>2019-06-18</lastmod>
@@ -135,14 +135,14 @@ xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://www.szchenxi.cf/app/app.html</loc>
+ <loc>https://www.szchenxi.cf/app/index.html</loc>
  <mobile:mobile type="pc,mobile" />
  <priority>0.5</priority>
  <lastmod>2019-06-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://www.szchenxi.cf/newspaper/newspaper.html</loc>
+ <loc>https://www.szchenxi.cf/newspaper/index.html</loc>
  <mobile:mobile type="pc,mobile" />
  <priority>0.5</priority>
  <lastmod>2019-06-18</lastmod>
@@ -156,14 +156,14 @@ xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://www.szchenxi.cf/notice/notice.html</loc>
+ <loc>https://www.szchenxi.cf/notice/index.html</loc>
  <mobile:mobile type="pc,mobile" />
  <priority>0.5</priority>
  <lastmod>2019-06-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://www.szchenxi.cf/app/app.html</loc>
+ <loc>https://www.szchenxi.cf/app/index.html</loc>
  <mobile:mobile type="pc,mobile" />
  <priority>0.5</priority>
  <lastmod>2019-06-18</lastmod>
@@ -184,14 +184,14 @@ xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://www.szchenxi.cf/photowall/photowall.html</loc>
+ <loc>https://www.szchenxi.cf/photowall/index.html</loc>
  <mobile:mobile type="pc,mobile" />
  <priority>0.5</priority>
  <lastmod>2019-06-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://www.szchenxi.cf/photowall/photowall.html</loc>
+ <loc>https://www.szchenxi.cf/photowall/index.html</loc>
  <mobile:mobile type="pc,mobile" />
  <priority>0.5</priority>
  <lastmod>2019-06-18</lastmod>
