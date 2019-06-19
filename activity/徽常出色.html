@@ -135,23 +135,17 @@
     <script>
         document.getElementById("share").addEventListener("click", function () {
             if (navigator.userAgent.indexOf("Html5Plus") > -1) {
-                //分享内容，开发者可自定义  
-                var message = {
-                    href: "http://www.dcloud.io/hellomui"
-                }
-                //调起分享  
-                plusShare(message, function (res) {
-                    //分享回调函数  
-                    if (res) {
-                        plus.nativeUI.toast("分享成功");
-                    } else {
-                        plus.nativeUI.toast("分享失败");
-                    }
-                })
-            }); else {
-            //跳转到App下载地址
-            window.location.href = "https://www.szchenxi.cf/app/app.html";
-        }});
+                //5+ 原生分享  
+                window.plusShare({
+                    href: location.href,
+                }, function (result) {
+                    //分享回调  
+                });
+            } else {
+                //跳转到App下载地址
+                window.location.href = "https://www.szchenxi.cf/app/app.html";
+            }
+        });
     </script>
     <!--viewer-->
     <script src="https://cdn.bootcss.com/viewerjs/1.3.3/viewer.min.js"></script>
