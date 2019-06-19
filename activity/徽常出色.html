@@ -10,11 +10,12 @@
     <!--title-->
     <title>珠海市第十中学学生会“徽常出色”会徽设计比赛 | 活动</title>
     <!--icon-->
-    <link rel="icon" sizes="192x192" href="images/icon.png">
+    <link rel="icon" sizes="192x192" href="https://www.szchenxi.cf/images/icon.png">
     <link href="https://www.szchenxi.cf/favicon.ico" rel="shortcut icon">
     <!--css-->
     <link rel="stylesheet" href="https://www.szchenxi.cf/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/viewerjs/1.3.3/viewer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
     <!--font-->
     <link href="https://fonts.lug.ustc.edu.cn/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
     <style>
@@ -93,11 +94,15 @@
                                     <a href="mailto:398264805@qq.com" class="font-italic"
                                         style="text-decoration: underline;">398264805@qq.com</a>
                                 </p>
-                                <p class="html5plus-hide card-text"><a href="activity.html"
-                                        class="btn btn-outline-primary">更多活动</a>
+                                <hr>
+                                <p class="card-text"><button id="share" class="btn btn-outline-primary">客户端专用分享</button>
                                 </p>
-                                <p class="card-text"><button id="share" class="btn btn-outline-primary">更多活动</button>
-                            </p>
+                                <div class="html5plus-hide share-component" data-sites="qq,qzone,wechat,weibo,tencent" data-mobile-sites="qq,qzone,weibo,tencent"></div>
+                                <div class="html5plus-hide">
+                                    <hr>
+                                <p><a href="activity.html"
+                                        class="btn btn-outline-primary">更多活动</a>
+                                </p></div>
                             </div>
                         </div>
                     </div>
@@ -121,32 +126,39 @@
     <script>
         if (navigator.userAgent.indexOf("Html5Plus") > -1) {
             document.body.classList.add("html5plus");
-        }  
+        }
     </script>
     <!--share-->
-    <script src="plusShare.js" type="text/javascript" charset="utf-8"></script>
+    <script src="plusShare.js"></script>
+    <script src="jquery.share.min.js"></script>
     <script>
         document.getElementById("share").addEventListener("click", function () {
-            //分享内容，开发者可自定义  
-            var message = {
-                title: "plusShare示例", //应用名字  
-                content: "plusShare基于HTML5+的share模块，开发者只需调用一个API，即可调起微信好友、微信朋友圈、系统更多分享功能",
-                href: "http://www.dcloud.io/hellomui", //分享出去后，点击跳转地址  
-                thumbs: ["http://img-cdn-qiniu.dcloud.net.cn/icon3.png"] //分享缩略图  
-            }
-            //调起分享  
-            plusShare(message, function (res) {
-                //分享回调函数  
-                if (res) {
-                    plus.nativeUI.toast("分享成功");
-                } else {
-                    plus.nativeUI.toast("分享失败");
+            if (navigator.userAgent.indexOf("Html5Plus") > -1) {
+                //分享内容，开发者可自定义  
+                var message = {
+                    title: "徽常出色", //应用名字  
+                    content: "珠海市第十中学学生会“徽常出色”会徽设计比赛",
+                    href: "https://www.szchenxi.cf/activity/徽常出色.html", //分享出去后，点击跳转地址  
+                    thumbs: ["https://www.szchenxi.cf/images/icon.png"] //分享缩略图  
                 }
-            })
+                //调起分享  
+                plusShare(message, function (res) {
+                    //分享回调函数  
+                    if (res) {
+                        plus.nativeUI.toast("分享成功");
+                    } else {
+                        plus.nativeUI.toast("分享失败");
+                    }
+                })
+            }
+            else {
+                window.location.href = "https://www.szchenxi.cf/app/app.html";
+            }
         });
     </script>
     <!--viewer-->
     <script src="https://cdn.bootcss.com/viewerjs/1.3.3/viewer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/jquery.share.min.js"></script>
     <script>
         window.addEventListener('DOMContentLoaded', function () {
             var galley = document.getElementById('galley');
