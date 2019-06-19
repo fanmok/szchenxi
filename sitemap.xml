@@ -86,7 +86,7 @@ xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://www.szchenxi.cf/activity/徽常出色.html</loc>
+ <loc>https://www.szchenxi.cf/activity/huichangchuse.html</loc>
  <mobile:mobile type="pc,mobile" />
  <priority>0.5</priority>
  <lastmod>2019-06-18</lastmod>
@@ -170,14 +170,14 @@ xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://www.szchenxi.cf/activity/activity.html</loc>
+ <loc>https://www.szchenxi.cf/activity/index.html</loc>
  <mobile:mobile type="pc,mobile" />
  <priority>0.5</priority>
  <lastmod>2019-06-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://www.szchenxi.cf/activity/徽常出色.html</loc>
+ <loc>https://www.szchenxi.cf/activity/huichangchuse.html</loc>
  <mobile:mobile type="pc,mobile" />
  <priority>0.5</priority>
  <lastmod>2019-06-18</lastmod>

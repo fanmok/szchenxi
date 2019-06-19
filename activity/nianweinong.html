@@ -8,12 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#07bbff" />
     <!--title-->
-    <title>活动 |《晨曦》校刊</title>
+    <title>年味浓 | 活动</title>
     <!--icon-->
     <link rel="icon" sizes="192x192" href="https://www.szchenxi.cf/images/icon.png">
     <link href="https://www.szchenxi.cf/favicon.ico" rel="shortcut icon">
     <!--css-->
     <link rel="stylesheet" href="https://www.szchenxi.cf/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/viewerjs/1.3.3/viewer.css">
     <!--font-->
     <link href="https://fonts.lug.ustc.edu.cn/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
     <style>
@@ -65,35 +66,31 @@
     </header>
     <main>
         <section>
-            <div class="container py-5">
-                <div class="text-center">
-                    <h1 class="font-weight-light">活动</h1>
-                </div>
-                <hr class="pb-3">
-                <div class="row text-center py-3">
-                    <div class="col-md-4 pb-1 pb-md-0">
-                        <a href="年味浓.html">
-                            <div class="card">
-                                <img class="card-img-top" src="https://s2.ax1x.com/2019/06/17/VbNPV1.md.png"
-                                    alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">年味浓</h5>
-                                    <p class="card-text">2019年2月 征稿活动</p>
-                                </div>
-                            </div>
-                        </a>
+            <div class="container py-3">
+                <div class="row pb-3">
+                    <div class="col-md-8 pb-1 pb-mb-0">
+                        <div class="jumbotron text-white" style="background-color: #ff0000;">
+                            <h1 class="display-4">年味浓</h1>
+                            <p class="lead">2019年2月 征稿活动</p>
+                            <hr class="my-4"><img data-original="https://s2.ax1x.com/2019/06/17/VbNF56.png"
+                                src="https://s2.ax1x.com/2019/06/17/VbNF56.md.png" id="galley" alt="年味浓"
+                                class="img-responsive py-3">
+                        </div>
                     </div>
                     <div class="col-md-4 pb-1 pb-md-0">
-                        <a href="徽常出色.html">
-                            <div class="card">
-                                <img class="card-img-top" src="https://s2.ax1x.com/2019/06/17/VbNiUx.md.png"
-                                    alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">珠海市第十中学学生会“徽常出色”会徽设计比赛</h5>
-                                    <p class="card-text">2019年5月</p>
-                                </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">信息</h5>
+                                <hr>
+                                <p class="card-text">文案：2017级5班 莫凡</p>
+                                <p class="card-text">制图：2017级5班 莫凡</p>
+                                <p class="card-text"><a href="https://www.tgchenxi.cf/"
+                                        class="btn btn-danger text-white">点击按钮马上投稿吧！</a></p>
+                                <p class="html5plus-hide card-text"><a href="index.html"
+                                        class="btn btn-outline-primary">更多活动</a>
+                                </p>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -116,6 +113,19 @@
         if (navigator.userAgent.indexOf("Html5Plus") > -1) {
             document.body.classList.add("html5plus");
         }  
+    </script>
+    <!--viewer-->
+    <script src="https://cdn.bootcss.com/viewerjs/1.3.3/viewer.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            var galley = document.getElementById('galley');
+            var viewer = new Viewer(galley, {
+                url: 'data-original',
+                title: function (image) {
+                    return image.alt + ' (' + (this.index + 1) + '/' + this.length + ')';
+                },
+            });
+        });
     </script>
     <!--Google Analytics-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132568926-1"></script>

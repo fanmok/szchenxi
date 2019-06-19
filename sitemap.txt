@@ -10,7 +10,7 @@ https://www.szchenxi.cf/about/online.html
 https://www.szchenxi.cf/about/studentunion.html
 https://www.szchenxi.cf/about/zhsz.html
 https://www.dreamstar.cf/
-https://www.szchenxi.cf/activity/徽常出色.html
+https://www.szchenxi.cf/activity/huichangchuse.html
 https://www.szchenxi.cf/app/app.html
 https://www.szchenxi.cf/notice/投稿指南.html
 https://www.szchenxi.cf/newspaper/1/index.html
@@ -22,8 +22,8 @@ https://www.szchenxi.cf/newspaper/newspaper.html
 https://www.szchenxi.cf/newspaper/1/index.html
 https://www.szchenxi.cf/notice/notice.html
 https://www.szchenxi.cf/app/app.html
-https://www.szchenxi.cf/activity/activity.html
-https://www.szchenxi.cf/activity/徽常出色.html
+https://www.szchenxi.cf/activity/index.html
+https://www.szchenxi.cf/activity/huichangchuse.html
 https://www.szchenxi.cf/photowall/photowall.html
 https://www.szchenxi.cf/photowall/photowall.html
 https://www.szchenxi.cf/about/cx.html
