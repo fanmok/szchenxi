@@ -152,6 +152,7 @@
             </div>
         </section>
         <section>
+            <button type="button d-block d-md-none" class="btn btn-info btn-block" id="btn">点击打开</button>
             <div class="container pt-5">
                 <div class="card-deck">
                     <div class="card">
@@ -272,29 +273,30 @@
         }
     </script>
     <script>
-        window.addEventListener('beforeinstallprompt', (e) => {
-            // Prevent Chrome 67 and earlier from automatically showing the prompt
+        var dfdPrompt = null;
+        var button = document.getElementById('btn');
+        window.addEventListener('beforeinstallprompt', function (e) {
+            // 存储事件
+            dfdPrompt = e;
+            // 显示按钮
+            button.style.display = 'block';
+            // 阻止默认事件
             e.preventDefault();
-            // Stash the event so it can be triggered later.
-            deferredPrompt = e;
-            // Update UI notify the user they can add to home screen
-            btnAdd.style.display = 'block';
+            return false;
         });
-        btnAdd.addEventListener('click', (e) => {
-            // hide our user interface that shows our A2HS button
-            btnAdd.style.display = 'none';
-            // Show the prompt
-            deferredPrompt.prompt();
-            // Wait for the user to respond to the prompt
-            deferredPrompt.userChoice
-                .then((choiceResult) => {
-                    if (choiceResult.outcome === 'accepted') {
-                        console.log('User accepted the A2HS prompt');
-                    } else {
-                        console.log('User dismissed the A2HS prompt');
-                    }
-                    deferredPrompt = null;
-                });
+        button.addEventListener('click', function (e) {
+            if (dfdPrompt == null) {
+                return;
+            }
+            // 通过按钮点击事件触发横幅显示
+            dfdPrompt.prompt();
+            // 监控用户的安装行为
+            dfdPrompt.userChoice.then(function (choiceResult) {
+                alert(choiceResult.outcome);
+            });
+            // 隐藏按钮
+            button.style.display = 'none';
+            dfdPrompt = null;
         });
     </script>
 </body>
