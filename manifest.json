@@ -2,10 +2,15 @@
     "description": "一个方便珠海十中学生浏览校刊及学校其他动态的应用",
     "icons": [
         {
-            "src": "images/icon.png",
+            "src": "images/icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "images/icon-192x192.png",
             "type": "image/png",
             "sizes": "192x192"
-        },
+        }
     ],
     "lang": "zh",
     "short_name": "晨曦",
