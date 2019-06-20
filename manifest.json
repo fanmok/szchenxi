@@ -1,6 +1,5 @@
 {
-    "short_name": "晨曦",
-    "name": "晨曦",
+    "description": "一个方便珠海十中学生浏览校刊及学校其他动态的应用",
     "icons": [
         {
             "src": "images/touch-icon-iphone-retina.png",
@@ -33,7 +32,10 @@
             "sizes": "80x80"
         }
     ],
+    "lang": "zh",
+    "short_name": "晨曦",
+    "name": "晨曦",
     "display": "standalone",
     "theme_color": "#007bff",
-    "start_url": "https://www.szchenxi.cf/"
+    "start_url": "/"
 }
