@@ -218,6 +218,9 @@
                 </div>
             </div>
         </section>
+        <button type="button" class="pwa btn btn-success btn-lg btn-block">
+            <h3>PWA</h3>
+        </button>
     </main>
     <footer class="html5plus-hide text-center bg-dark text-muted py-2">
         <p class="text-white-50"><a href="about/cx.html" class="text-white-50">关于晨曦</a> | <a href="#"
@@ -256,7 +259,7 @@
     <!--pwa-->
     <script>
         var dfdPrompt = null;
-        var button = document.getElementById('btn');
+        var button = document.getElementById('pwa');
         window.addEventListener('beforeinstallprompt', function (e) {
             // 存储事件
             dfdPrompt = e;
