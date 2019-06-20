@@ -1,0 +1,39 @@
+{
+    "short_name": "晨曦",
+    "name": "晨曦",
+    "icons": [
+        {
+            "src": "images/touch-icon-iphone-retina.png",
+            "type": "image/png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "images/touch-icon-ipad-pro.png",
+            "type": "image/png",
+            "sizes": "167x167"
+        }
+        {
+            "src": "images/touch-icon-ipad-retina.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "images/touch-icon-iphone.png",
+            "type": "image/png",
+            "sizes": "120x120"
+        }
+        {
+            "src": "images/touch-icon-ipad.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "images/touch-icon.png",
+            "type": "image/png",
+            "sizes": "80x80"
+        }
+    ],
+    "display": "standalone",
+    "theme_color": "#007bff",
+    "start_url": "https://www.szchenxi.cf/"
+}
