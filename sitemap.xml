@@ -1,221 +1,221 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
-<url>
- <loc>https://www.szchenxi.cf</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/newspaper/index.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/photowall/index.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.tgchenxi.cf/</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/app/index.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/about/wxs.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/about/cx.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/about/online.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/about/studentunion.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/about/zhsz.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.dreamstar.cf/</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/activity/huichangchuse.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/app/index.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/notice/投稿指南.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/newspaper/1/index.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/newspaper/index.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/photowall/index.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.tgchenxi.cf/</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/app/index.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/newspaper/index.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/newspaper/1/index.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/notice/index.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/app/index.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/activity/index.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/activity/huichangchuse.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/photowall/index.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/photowall/index.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/about/cx.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/about/online.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.szchenxi.cf/about/wxs.html</loc>
- <mobile:mobile type="pc,mobile" />
- <priority>0.5</priority>
- <lastmod>2019-06-18</lastmod>
- <changefreq>weekly</changefreq>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+    xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
+    <url>
+        <loc>https://www.szchenxi.cf</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/newspaper/index.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/photowall/index.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.tgchenxi.cf/</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/app/index.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/about/wxs.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/about/cx.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/about/online.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/about/studentunion.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/about/zhsz.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.dreamstar.cf/</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/activity/huichangchuse.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/app/index.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/notice/投稿指南.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/newspaper/1/index.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/newspaper/index.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/photowall/index.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.tgchenxi.cf/</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/app/index.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/newspaper/index.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/newspaper/1/index.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/notice/index.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/app/index.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/activity/index.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/activity/huichangchuse.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/photowall/index.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/photowall/index.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/about/cx.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/about/online.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://www.szchenxi.cf/about/wxs.html</loc>
+        <mobile:mobile type="pc,mobile" />
+        <priority>0.5</priority>
+        <lastmod>2019-06-18</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
 </urlset>

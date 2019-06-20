@@ -1,7 +1,6 @@
 {
     "description": "一个方便珠海十中学生浏览校刊及学校其他动态的应用",
-    "icons": [
-        {
+    "icons": [{
             "src": "images/icon-512x512.png",
             "type": "image/png",
             "sizes": "512x512"
