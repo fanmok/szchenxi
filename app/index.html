@@ -200,13 +200,6 @@
     </script>
     <!--pwa-->
     <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker
-                .register('/sw.js')
-                .then(function () { console.log("Service Worker Registered"); });
-        }
-    </script>
-    <script>
         var dfdPrompt = null;
         var button = document.getElementById('btn');
         window.addEventListener('beforeinstallprompt', function (e) {
@@ -228,9 +221,6 @@
             dfdPrompt.userChoice.then(function (choiceResult) {
                 alert(choiceResult.outcome);
             });
-            // 隐藏按钮
-            button.style.display = 'none';
-            dfdPrompt = null;
         });
     </script>
 </body>
