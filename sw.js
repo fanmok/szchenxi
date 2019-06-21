@@ -1,4 +1,4 @@
-importScripts('https://fanmok.gitee.io/szchenxi_cdn/cache-polyfill.js');
+importScripts('/cache-polyfill.js');
 
 
 self.addEventListener('install', function (e) {
