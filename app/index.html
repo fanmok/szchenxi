@@ -29,8 +29,6 @@
             display: none
         }
     </style>
-    <!--pwa-->
-    <link rel="manifest" href="/manifest.json">
 </head>
 
 <body class='lang-zh page-front vsc-initialized' ontouchstart=''>
@@ -93,7 +91,6 @@
                             <p class="card-text">大小：39.2MB</p>
                             <a href="https://fanmok.gitee.io/szchenxi_download/晨曦.exe"><button type="button"
                                     class="btn text-white btn-lg" style="background-color: #0078D6">EXE</button></a>
-                            <button type="button" class="btn btn-danger btn-lg" id="btn">PWA</button>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">version 1.1 2019/6/9</small>
@@ -196,31 +193,6 @@
         (adsbygoogle = window.adsbygoogle || []).push({
             google_ad_client: "ca-pub-7717011057644549",
             enable_page_level_ads: true
-        });
-    </script>
-    <!--pwa-->
-    <script>
-        var dfdPrompt = null;
-        var button = document.getElementById('btn');
-        window.addEventListener('beforeinstallprompt', function (e) {
-            // 存储事件
-            dfdPrompt = e;
-            // 显示按钮
-            button.style.display = 'block';
-            // 阻止默认事件
-            e.preventDefault();
-            return false;
-        });
-        button.addEventListener('click', function (e) {
-            if (dfdPrompt == null) {
-                return;
-            }
-            // 通过按钮点击事件触发横幅显示
-            dfdPrompt.prompt();
-            // 监控用户的安装行为
-            dfdPrompt.userChoice.then(function (choiceResult) {
-                alert(choiceResult.outcome);
-            });
         });
     </script>
 </body>
