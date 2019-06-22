@@ -2,59 +2,60 @@
 <html lang="zh-cmn-Hans">
 
 <head>
+    <!--meta-->
     <meta charset="utf-8">
     <meta http-equiv='Content-Language' content='zh'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#007bff" />
+    <!--title-->
+    <title>珠海十中《晨曦》校刊</title>
+    <!--icon-->
+    <link rel="icon" sizes="192x192" href="/images/icon.png">
+    <link href="/favicon.ico" rel="shortcut icon">
+    <!--css-->
     <link rel="stylesheet" href="https://fanmok.gitee.io/szchenxi_cdn/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/viewerjs/1.3.3/viewer.css">
+    <!--font-->
     <link href="https://fonts.loli.net/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
-    <title>iOS-PWA帮助文档 | 珠海十中《晨曦》校刊</title>
-    <link href="https://www.szchenxi.cf/favicon.ico" rel="shortcut icon">
     <style>
         body,
         html {
             font-family: 'Noto Sans SC', sans-serif;
         }
     </style>
-
+    <!--app-->
     <style>
         .html5plus .html5plus-hide {
             display: none
         }
     </style>
-    <script>
-        if (navigator.userAgent.indexOf("Html5Plus") > -1) {
-            document.body.classList.add("html5plus");
-        }  
-    </script>
 </head>
 
-<body class='lang-zh page-front' ontouchstart=''>
+<body class='lang-zh page-front vsc-initialized' ontouchstart=''>
     <header class="html5plus-hide">
-        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-            <a href="https://www.szchenxi.cf" class="navbar-brand"><img
-                    src="https://www.szchenxi.cf/images/logo_white.svg" alt="Logo" width="40" height="40" title="Logo"
-                    align="absmiddle">
-                <img src="https://www.szchenxi.cf/images/chenxi-white.svg" alt="晨曦" width="54" height="32" title="Logo"
-                    align="absmiddle"></a>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary shadow">
+            <a href="/" class="navbar-brand"><img src="/images/logo.svg" alt="Logo" width="40" height="40" title="Logo">
+                &nbsp;&nbsp;
+                <img src="/images/chenxi-white.svg" alt="晨曦" width="54" height="32" title="Logo"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div id="menu" class="collapse navbar-collapse">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="../newspaper/index.html" class="nav-link">校刊</a></li>
-                    <li class="nav-item"><a href="../photowall/index.html" class="nav-link">照片墙</a></li>
+                    <li class="nav-item"><a href="/newspaper/index.html" class="nav-link">校刊</a></li>
+                    <li class="nav-item"><a href="/photowall/index.html" class="nav-link">照片墙</a></li>
                     <li class="nav-item"><a href="https://www.tgchenxi.cf/" class="nav-link">投稿</a></li>
-                    <li class="nav-item"><a href="../app/index.html" class="nav-link">客户端</a></li>
+                    <li class="nav-item"><a href="/app/index.html" class="nav-link">客户端</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">关于</a>
                         <div class="dropdown-menu" aria-labelledby="navbardropdown">
-                            <a class="dropdown-item" href="../about/wxs.html">晨曦文学社</a>
-                            <a class="dropdown-item" href="../about/cx.html">《晨曦》校刊</a>
-                            <a class="dropdown-item" href="../about/online.html">线上校刊</a>
+                            <a class="dropdown-item" href="/about/wxs.html">晨曦文学社</a>
+                            <a class="dropdown-item" href="/about/cx.html">《晨曦》校刊</a>
+                            <a class="dropdown-item" href="/about/online.html">线上校刊</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="../about/studentunion.html">珠海十中学生会</a>
-                            <a class="dropdown-item" href="../about/zhsz.html">珠海市第十中学</a>
+                            <a class="dropdown-item" href="/about/studentunion.html">珠海十中学生会</a>
+                            <a class="dropdown-item" href="/about/zhsz.html">珠海市第十中学</a>
                             <a class="dropdown-item" href="https://www.dreamstar.cf/" target="_blank">梦星工作室</a>
                         </div>
                     </li>
@@ -67,20 +68,90 @@
             <div class="container py-3">
                 <div class="row pb-3">
                     <div class="col-md-8 pb-1 pb-mb-0">
-                        <div class="jumbotron">
-                            <h1 class="display-4">帮助文档</h1>
-                            <p class="lead">iOS PWA APP</p>
+                        <div class="jumbotron text-white" style="background-color: #5a0fc8">
+                            <h1 class="display-4">PWA 帮助文档</h1>
+                            <p class="lead">by fanmok</p>
                             <hr class="my-4">
-                            <p>下面教你如何在Safari创建一个Web应用。<br>
-                                <p>1、用Safari打开网站主页，并<a href="https://www.szchenxi.cf/"><button type="button"
-                                            class="btn btn-primary">回到主页</button></a></p>
-                                <p>2、点击 <img src="images/iOS_01.png" width="45" height="45"><br>
-                                    <img src="images/iOS (1).jpg" class="img-responsive py-3" width="250"></p>
-                                <p>3、点击 <img src="images/iOS_02.png" width="90" height="120"><br>
-                                    <img src="images/iOS (2).jpg" class="img-responsive py-3" width="250"></p>
-                                <p>3、点击 <span style="text-decoration: underline;">添加</span> <br>
-                                    <img src="images/iOS (3).jpg" class="img-responsive py-3" width="250"></p>
-                                <p>4、在主屏幕打开你的应用吧！</p>
+                            <div class="pb-3">
+                                <h3>如何安装PWA？</h3>
+                            </div>
+                            <p>方法一：在浏览器上前往<a href="/"> <button type="button" class="btn btn-primary">主页</button></a> 找到
+                                <button type="button" class="btn btn-light">PWA应用</button> 按钮，点击安装即可</p>
+                            <p>方法二：部分浏览器会自动弹出提示，点击“添加”安装即可</p>
+                            <p>方法三：点击“...”，找到“添加到主屏幕”，点击安装即可</p>
+                            <div class="pb-3">
+                                <h3>我的设备支不支持PWA？</h3>
+                            </div>
+                            <p>现在流行的设备都支持安装，但是需要安装支持PWA的浏览器</p>
+                            <p>想要知道自己的浏览器支不支持PWA？点击主页的按钮即可。</p>
+                            <div class="alert alert-warning" role="alert">
+                                <h4 class="alert-heading">支持PWA的主流浏览器</h4>
+                                <p>你的设备需要安装这些浏览器才能使用PWA</p>
+                                <hr>
+                                <p><span class="badge badge-pill badge-primary">Windows</span><br>
+                                    <a href="https://www.microsoftedgeinsider.com/en-us/download/"
+                                        target="_blank"><button type="button" class="btn btn-sm btn-success"><img
+                                                src="images/Microsoft_Edge_logo.svg" alt="Edge" width="20" height="20"
+                                                title="Logo"> Microsoft
+                                            Edge</button></a>&nbsp;&nbsp;&nbsp;<a href="https://www.google.com/intl/zh-CN/chrome/
+                                        " target="_blank"><button type="button" class="btn btn-sm btn-light"><img
+                                                src="images/Google_Chrome_icon_(September_2014).svg" alt="Chrome"
+                                                width="20" height="20" title="Logo"> Google
+                                            Chrome</button></a>&nbsp;&nbsp;&nbsp;<a href="https://browser.qq.com/"
+                                        target="_blank">
+                                        <button type="button" class="btn btn-sm btn-light"><img
+                                                src="images/QQ瀏覽器Logo.png" alt="QQBrowser" width="20" height="20"
+                                                title="Logo">
+                                            QQ浏览器</button></a>
+                                </p>
+                                <p>
+                                    <span class="badge badge-pill badge-primary">Linux/Chrome OS</span><br>
+                                    <a href="https://www.google.com/intl/zh-CN/chrome/
+                                        " target="_blank"><button type="button" class="btn btn-sm btn-success"><img
+                                                src="images/Google_Chrome_icon_(September_2014).svg" alt="Chrome"
+                                                width="20" height="20" title="Logo"> Google
+                                            Chrome</button></a>
+                                </p>
+                                <p>
+                                    <span class="badge badge-pill badge-primary">macOS</span><br>
+                                    <a href="https://www.google.com/intl/zh-CN/chrome/
+                                    " target="_blank"><button type="button" class="btn btn-sm btn-success"><img
+                                                src="images/Google_Chrome_icon_(September_2014).svg" alt="Chrome"
+                                                width="20" height="20" title="Logo"> Google
+                                            Chrome</button></a>&nbsp;&nbsp;&nbsp;<a
+                                        href="https://www.apple.com/cn/safari/" target="_blank"><button type="button"
+                                            class="btn btn-sm btn-light"><img src="images/Safari_browser_logo.svg"
+                                                alt="Safari" width="20" height="20" title="Logo"> Safari</button></a>
+                                </p>
+                                <p>
+                                    <span class="badge badge-pill badge-primary">Android</span><br>
+                                    <a href="https://www.google.com/intl/zh-CN/chrome/
+                                        " target="_blank"><button type="button" class="btn btn-sm btn-success"><img
+                                                src="images/Google_Chrome_icon_(September_2014).svg" alt="Chrome"
+                                                width="20" height="20" title="Logo"> Google
+                                            Chrome</button></a>&nbsp;&nbsp;&nbsp;<a href="https://www.microsoft.com/zh-cn/windows/microsoft-edge-mobile
+                                        " target="_blank"><button type="button" class="btn btn-sm btn-light"><img
+                                                src="images/Microsoft_Edge_logo.svg" alt="Edge" width="20" height="20"
+                                                title="Logo"> Microsoft Edge</button></a>&nbsp;&nbsp;&nbsp;<button
+                                        type="button" class="btn btn-sm btn-light"><img src="images/MIUI Browser.png"
+                                            alt="MIUI" width="20" height="20" title="Logo"> MIUI浏览器</button>
+                                </p>
+                                <p>
+                                    <span class="badge badge-pill badge-primary">iOS/iPadOS</span><br>
+                                    <a href="https://www.apple.com/cn/safari/" target="_blank"><button type="button"
+                                            class="btn btn-sm btn-light"><img src="images/Safari_browser_logo.svg"
+                                                alt="Safari" width="20" height="20" title="Logo"> Safari</button></a>
+                                </p>
+                                <hr>
+                                <p>为了取得完美的体验，我们建议您在您的设备上使用标注绿色的浏览器<del>
+                                </p>
+                            </div>
+                            <div class="pb-3">
+                                <h3>附注</h3>
+                            </div>
+                            <p>Windows的Microsoft Edge并不是指现在Windows 10自带的那个，而是Chromium内核的Edge</p>
+                            <p>Google和Microsoft一直在推动PWA生态发展，所以它们两家的浏览器对PWA的兼容性都比较好<br>Apple对PWA不太支持，即使Safari支持PWA，在使用方面也不太友好。<br>国内的生态确实对PWA不太友好，但是微信小程序和快应用其实跟PWA大同小异，也可以说PWA是它们的祖宗。
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-4 pb-1 pb-md-0">
@@ -114,16 +185,54 @@
 
     </main>
     <footer class="html5plus-hide text-center bg-dark text-muted py-2">
-        <p class="text-white-50"><a href="../about/cx.html" class="text-white-50">关于我们</a> | <a href="#"
-                class="text-white-50">回到顶部</a>
-            | <a href="../about/online.html" class="text-white-50">更新记录</a></p>
-        <a href="../about/wxs.html" class="text-white-50">
+        <p class="text-white-50"><a href="/about/cx.html" class="text-white-50">关于晨曦</a> | <a href="#"
+                class="text-white-50">回到顶部</a> | <a href="/about/online.html" class="text-white-50">关于网站</a></p>
+        <a href="/about/wxs.html" class="text-white-50">
             <p>Copyright © 晨曦文学社 All rights reserved.</p>
         </a>
     </footer>
+    <!--script-->
     <script src="https://fanmok.gitee.io/szchenxi_cdn/jquery-3.3.1.min.js"></script>
     <script src="https://fanmok.gitee.io/szchenxi_cdn/popper.min.js"></script>
     <script src="https://fanmok.gitee.io/szchenxi_cdn/bootstrap.min.js"></script>
+    <!--app-->
+    <script>
+        if (navigator.userAgent.indexOf("Html5Plus") > -1) {
+            document.body.classList.add("html5plus");
+        }
+    </script>
+    <!--viewer-->
+    <script src="https://fanmok.gitee.io/szchenxi_cdn/viewer.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            var galley = document.getElementById('galley');
+            var viewer = new Viewer(galley, {
+                url: 'data-original',
+                title: function (image) {
+                    return image.alt + ' (' + (this.index + 1) + '/' + this.length + ')';
+                },
+            });
+        });
+    </script>
+    <!--Google Analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132568926-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-132568926-1');
+    </script>
+    <!--Google AdSense-->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-7717011057644549",
+            enable_page_level_ads: true
+        });
+    </script>
 </body>
 
 </html>
