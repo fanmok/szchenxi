@@ -197,12 +197,14 @@
                         <div class="card">
                             <h5 class="card-header">预览</h5>
                             <div class="card-body">
-                                <p><img data-original="https://s2.ax1x.com/2019/06/20/VvxLU1.png"
-                                        src="https://s2.ax1x.com/2019/06/20/VvxLU1.md.png" id="galley"
-                                        alt="校刊 第一期 Page1" class="img-responsive py-3"></p>
-                                <p class="py-3"><img data-original="https://s2.ax1x.com/2019/06/20/VvxqER.png"
-                                        src="https://s2.ax1x.com/2019/06/20/VvxqER.md.png" id="galley"
-                                        alt="校刊 第一期 Page2" class="img-responsive py-3"></p>
+                                <ul style="list-style-type:none" id="galley">
+                                    <li><img data-original="https://s2.ax1x.com/2019/06/20/VvxLU1.png"
+                                            src="https://s2.ax1x.com/2019/06/20/VvxLU1.md.png" alt="校刊 第一期 Page1"
+                                            class="img-responsive py-3"></li>
+                                    <li class="py-3"><img data-original="https://s2.ax1x.com/2019/06/20/VvxqER.png"
+                                            src="https://s2.ax1x.com/2019/06/20/VvxqER.md.png" alt="校刊 第一期 Page2"
+                                            class="img-responsive py-3"></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -232,8 +234,7 @@
     <script src="https://fanmok.gitee.io/szchenxi_cdn/viewer.min.js"></script>
     <script>
         window.addEventListener('DOMContentLoaded', function () {
-            var galley = document.getElementById('galley');
-            var viewer = new Viewer(galley, {
+            var viewer = new Viewer(document.getElementById('galley'), {
                 url: 'data-original',
                 title: function (image) {
                     return image.alt + ' (' + (this.index + 1) + '/' + this.length + ')';
