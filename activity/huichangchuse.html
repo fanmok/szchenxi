@@ -29,6 +29,9 @@
         .html5plus .html5plus-hide {
             display: none
         }
+        .html5pluscopy .html5plus-show {
+            display: none
+        }
     </style>
 </head>
 
@@ -95,7 +98,7 @@
                                         style="text-decoration: underline;">398264805@qq.com</a>
                                 </p>
                                 <hr>
-                                <p class="card-text"><button id="share" class="btn btn-outline-primary">客户端专用分享</button>
+                                <p class="card-text"><button id="share" class="html5plus-show btn btn-outline-primary">客户端专用分享</button>
                                 </p>
                                 <div class="html5plus-hide share-component" data-sites="qq,qzone,wechat,weibo,tencent"
                                     data-mobile-sites="qq,qzone,weibo,tencent"></div>
@@ -128,6 +131,22 @@
         if (navigator.userAgent.indexOf("Html5Plus") > -1) {
             document.body.classList.add("html5plus");
         }
+        else{
+            document.body.classList.add("html5pluscopy");
+        }
+    </script>
+    <!--viewer-->
+    <script src="https://fanmok.gitee.io/szchenxi_cdn/viewer.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            var galley = document.getElementById('galley');
+            var viewer = new Viewer(galley, {
+                url: 'data-original',
+                title: function (image) {
+                    return image.alt + ' (' + (this.index + 1) + '/' + this.length + ')';
+                },
+            });
+        });
     </script>
     <!--share-->
     <script src="https://fanmok.gitee.io/szchenxi_cdn/plusShare.js"></script>
@@ -148,19 +167,6 @@
                 //跳转到App下载地址
                 window.location.href = "https://www.szchenxi.cf/app/index.html";
             }
-        });
-    </script>
-    <!--viewer-->
-    <script src="https://fanmok.gitee.io/szchenxi_cdn/viewer.min.js"></script>
-    <script>
-        window.addEventListener('DOMContentLoaded', function () {
-            var galley = document.getElementById('galley');
-            var viewer = new Viewer(galley, {
-                url: 'data-original',
-                title: function (image) {
-                    return image.alt + ' (' + (this.index + 1) + '/' + this.length + ')';
-                },
-            });
         });
     </script>
     <!--Google Analytics-->
