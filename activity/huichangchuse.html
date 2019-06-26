@@ -29,6 +29,7 @@
         .html5plus .html5plus-hide {
             display: none
         }
+
         .html5pluscopy .html5plus-show {
             display: none
         }
@@ -98,13 +99,14 @@
                                         style="text-decoration: underline;">398264805@qq.com</a>
                                 </p>
                                 <hr>
-                                <p class="card-text"><button id="share" class="html5plus-show btn btn-outline-primary">分享</button>
+                                <p class="card-text"><button id="share"
+                                        class="html5plus-show btn btn-outline-primary">分享</button>
                                 </p>
-                                <div class="html5plus-hide share-component" data-sites="qq,qzone,wechat,weibo,tencent"
-                                    data-mobile-sites="qq,qzone,weibo,tencent"></div>
                                 <div class="html5plus-hide">
+                                    <div class="html5plus-hide share-component" data-sites="qq,qzone,wechat,weibo">
+                                    </div>
                                     <hr>
-                                    <p><a href="index.html" class="btn btn-outline-primary">更多活动</a>
+                                    <p><a href="index.html"><button class="btn btn-outline-primary">更多活动</button></a>
                                     </p>
                                 </div>
                             </div>
@@ -131,7 +133,7 @@
         if (navigator.userAgent.indexOf("Html5Plus") > -1) {
             document.body.classList.add("html5plus");
         }
-        else{
+        else {
             document.body.classList.add("html5pluscopy");
         }
     </script>
