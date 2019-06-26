@@ -28,6 +28,9 @@
         .html5plus .html5plus-hide {
             display: none
         }
+        .html5pluscopy .html5plus-show {
+            display: none
+        }
     </style>
 </head>
 
@@ -82,6 +85,9 @@
         if (navigator.userAgent.indexOf("Html5Plus") > -1) {
             document.body.classList.add("html5plus");
         }
+        else{
+            document.body.classList.add("html5pluscopy");
+        }
     </script>
     <!--viewer-->
     <script src="https://fanmok.gitee.io/szchenxi_cdn/viewer.min.js"></script>
@@ -94,6 +100,27 @@
                     return image.alt + ' (' + (this.index + 1) + '/' + this.length + ')';
                 },
             });
+        });
+    </script>
+    <!--share-->
+    <script src="https://fanmok.gitee.io/szchenxi_cdn/plusShare.js"></script>
+    <script src="https://fanmok.gitee.io/szchenxi_cdn/social-share.min.js"></script>
+    <script>
+        document.getElementById("share").addEventListener("click", function () {
+            if (navigator.userAgent.indexOf("Html5Plus") > -1) {
+                //5+ 原生分享  
+                window.plusShare({
+                    title: "徽常出色",//应用名字
+                    content: "珠海十中《晨曦》校刊 APP",
+                    href: "https://www.szchenxi.cf/activity/huichangchuse.html",//分享出去后，点击跳转地址  
+                    thumbs: ["/images/icon.png"] //分享缩略图 
+                }, function (result) {
+                    //分享回调  
+                });
+            } else {
+                //跳转到App下载地址
+                window.location.href = "https://www.szchenxi.cf/app/index.html";
+            }
         });
     </script>
     <!--Google Analytics-->
