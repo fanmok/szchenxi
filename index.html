@@ -77,9 +77,9 @@
     </header>
     <main>
         <section>
-            <div class="container pt-5">
-                <div class="row pb-3">
-                    <div class="col-lg-8">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 py-5">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
@@ -88,12 +88,12 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <a href="app/index.html"><img class="d-block w-100"
-                                            src="https://s2.ax1x.com/2019/06/22/ZpF3a8.md.png">
+                                            src="https://s2.ax1x.com/2019/06/22/ZpF3a8.png">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
                                     <a href="newspaper/1/index.html"><img class="d-block w-100"
-                                            src="https://s2.ax1x.com/2019/06/17/Vb0AjU.md.jpg">
+                                            src="https://s2.ax1x.com/2019/06/17/Vb0AjU.jpg">
                                     </a>
                                 </div>
                             </div>
@@ -109,78 +109,124 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-none d-lg-block">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <div class="d-xl-none"><img src="/images/logo.svg" alt="Logo" width="50" height="50"
-                                        title="Logo" align="absmiddle">&nbsp;&nbsp;&nbsp;<img src="/images/chenxi.svg"
-                                        alt="晨曦" width="54" height="32" title="Logo"></div>
-                                <div class="d-none d-xl-block"><img src="/images/logo.svg" alt="Logo" width="50"
-                                        height="50" title="Logo" align="absmiddle">
+                    <div class="col-lg-4">
+                        <div class="py-5 d-none d-lg-block">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <div class="d-lg-block d-xl-none"><img src="/images/logo.svg" alt="Logo" width="50"
+                                            height="50" title="Logo" align="absmiddle">&nbsp;&nbsp;&nbsp;<img
+                                            src="/images/chenxi.svg" alt="晨曦" width="54" height="32" title="Logo"></div>
+                                    <div class="d-lg-none d-xl-block"><img src="/images/logo.svg" alt="Logo" width="50"
+                                            height="50" title="Logo" align="absmiddle">
+                                        <h5 class="card-title">&nbsp;&nbsp;珠海十中&nbsp;&nbsp;<img src="/images/chenxi.svg"
+                                                alt="晨曦" width="54" height="32" title="Logo">&nbsp;&nbsp;校刊</h5>
+                                    </div>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <a href="newspaper/index.html"><button type="button"
+                                            class="btn btn-primary btn-lg btn-block">校刊</button></a>
+                                    <a href="photowall/index.html"><button type="button"
+                                            class="btn btn-success btn-lg btn-block">照片墙</button></a>
+                                    <a href="https://www.tgchenxi.cf/"><button type="button"
+                                            class="btn btn-warning btn-lg btn-block">投稿</button></a>
+                                    <button type="button" class="html5plus-hide btn btn-lg btn-block text-white"
+                                        onclick="install()" style="background-color: #5a0fc8">PWA应用</button>
+                                    <a href="app/index.html"><button type="button"
+                                            class="btn btn-dark btn-lg btn-block">客户端</button></a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card d-block d-lg-none">
+                            <div class="accordion" id="accordionExample">
+                                <button class="btn btn-link btn-block collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse" aria-expanded="false" aria-controls="collapse">
+                                    <img src="/images/logo.svg" alt="Logo" width="50" height="50" title="Logo"
+                                        align="absmiddle">
                                     <h5 class="card-title">&nbsp;&nbsp;珠海十中&nbsp;&nbsp;<img src="/images/chenxi.svg"
                                             alt="晨曦" width="54" height="32" title="Logo">&nbsp;&nbsp;校刊</h5>
+                                </button>
+                            </div>
+                            <div id="collapse" class="collapse" aria-labelledby="heading"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <a href="newspaper/index.html"><button type="button"
+                                                    class="btn btn-primary btn-lg btn-block">校刊</button></a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="photowall/index.html"><button type="button"
+                                                    class="btn btn-danger btn-lg btn-block">活动</button></a></div>
+                                        <div class="col-md-4">
+                                            <a href="photowall/index.html"><button type="button"
+                                                    class="btn btn-success btn-lg btn-block">照片墙</button></a></div>
+                                        <div class="col-md-4">
+                                            <a href="https://www.tgchenxi.cf/"><button type="button"
+                                                    class="btn btn-warning btn-lg btn-block">投稿</button></a></div>
+                                        <div class="col-md-4">
+                                            <button type="button" class="html5plus-hide btn btn-lg btn-block text-white"
+                                                onclick="install()" style="background-color: #5a0fc8">PWA应用</button>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="app/index.html"><button type="button"
+                                                    class="btn btn-dark btn-lg btn-block">客户端</button></a></div>
+                                    </div>
                                 </div>
                             </div>
-                            <ul class="list-group list-group-flush">
-                                <a href="newspaper/index.html"><button type="button"
-                                        class="btn btn-primary btn-lg btn-block">校刊</button></a>
-                                <a href="photowall/index.html"><button type="button"
-                                        class="btn btn-success btn-lg btn-block">照片墙</button></a>
-                                <a href="https://www.tgchenxi.cf/"><button type="button"
-                                        class="btn btn-warning btn-lg btn-block">投稿</button></a>
-                                <button type="button" class="html5plus-hide btn btn-lg btn-block text-white"
-                                    onclick="install()" style="background-color: #5a0fc8">PWA应用</button>
-                                <a href="app/index.html"><button type="button"
-                                        class="btn btn-dark btn-lg btn-block">客户端</button></a>
-                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section>
+            <div class="container pt-5">
+                <div class="row text-center py-3">
+                    <div class="col-md-4 pb-1 pb-md-0">
+                        <div class="card">
+                            <a href="newspaper/index.html" class="pb-3"><button type="button"
+                                    class="btn btn-primary btn-lg btn-block">
+                                    <h3>校刊</h3>
+                                </button></a>
+                            <a href="newspaper/1/index.html">
+                                <img src="https://s2.ax1x.com/2019/06/17/Vb0AjU.md.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">校刊 第一期</h5>
+                                    <p class="card-text">2018年10月刊</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pb-1 pb-md-0">
+                        <div class="card">
+                            <a href="notice/index.html" class="pb-3"><button type="button"
+                                    class="btn btn-info btn-lg btn-block">
+                                    <h3>通知</h3>
+                                </button></a>
+                            <a href="app/index.html">
+                                <img src="https://s2.ax1x.com/2019/06/22/ZpF3a8.md.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">PWA客户端上线</h5>
+                                    <p class="card-text">2019年6月</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pb-1 pb-md-0">
+                        <div class="card">
+                            <a href="activity/index.html" class="pb-3"><button type="button"
+                                    class="btn btn-danger btn-lg btn-block">
+                                    <h3>活动</h3>
+                                </button></a>
+                            <a href="activity/huichangchuse.html">
+                                <img src="https://s2.ax1x.com/2019/06/17/VbNiUx.md.png" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">珠海市第十中学学生会“徽常出色”会徽设计比赛</h5>
+                                    <p class="card-text">2019年5月</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section>
-            <div class="container pt-5">
-                <div class="card-deck">
-                    <div class="card">
-                        <a href="newspaper/index.html" class="pb-3"><button type="button"
-                                class="btn btn-primary btn-lg btn-block">
-                                <h3>校刊</h3>
-                            </button></a>
-                        <a href="newspaper/1/index.html">
-                            <img src="https://s2.ax1x.com/2019/06/17/Vb0AjU.md.jpg" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">校刊 第一期</h5>
-                                <p class="card-text">2018年10月刊</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="notice/index.html" class="pb-3"><button type="button"
-                                class="btn btn-info btn-lg btn-block">
-                                <h3>通知</h3>
-                            </button></a>
-                        <a href="app/index.html">
-                            <img src="https://s2.ax1x.com/2019/06/22/ZpF3a8.md.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">PWA客户端上线</h5>
-                                <p class="card-text">2019年6月</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="activity/index.html" class="pb-3"><button type="button"
-                                class="btn btn-danger btn-lg btn-block">
-                                <h3>活动</h3>
-                            </button></a>
-                        <a href="activity/huichangchuse.html">
-                            <img src="https://s2.ax1x.com/2019/06/17/VbNiUx.md.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">珠海市第十中学学生会“徽常出色”会徽设计比赛</h5>
-                                <p class="card-text">2019年5月</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
             </div>
         </section>
         <section>
@@ -207,11 +253,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section>
-            <div class="container pb-5 d-lg-none d-block">
-                <button type="button" class="html5plus-hide btn btn-lg btn-block text-white" onclick="install()"
-                    style="background-color: #5a0fc8">PWA应用</button></div>
         </section>
     </main>
     <footer class="html5plus-hide text-center bg-dark text-muted py-2">
