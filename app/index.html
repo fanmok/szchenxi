@@ -82,7 +82,7 @@
                                     <h3 class="card-title font-weight-bold">Android</h3><br>
                                     支持系统 Android <span class="badge badge-pill badge-warning">推荐</span>
                                 </p>
-                                <p><a href="https://fanmok.gitee.io/szchenxi_download/晨曦.apk"><button type="button"
+                                <p><a href="https://fanmok.gitee.io/szchenxi_cdn/晨曦.apk"><button type="button"
                                             class="btn text-white btn-lg"
                                             style="background-color: #77C159">下载</button></a></p>
                             </div>
@@ -132,11 +132,14 @@
                                 role="tab" aria-controls="Windows" aria-selected="false"
                                 style="background-color: #0078D6"><img src="images/Windows_darkblue_2012_svg.svg"
                                     alt="Windows" width="150" height="20" title="Logo"></a>
-                            <a class="nav-link text-dark" id="macOS-tab" data-toggle="pill" href="#macOS" role="tab"
+                            <a class="nav-link text-whtie" id="Linux-tab" data-toggle="pill" href="#Linux" role="tab"
+                                aria-controls="Linux" aria-selected="false" style="background-color: #1793d1"><img
+                                    src="images/Linux_logo.svg" alt="iOS" width="150" height="20" title="Logo"></a>
+                            <a class="nav-link text-white" id="macOS-tab" data-toggle="pill" href="#macOS" role="tab"
                                 aria-controls="macOS" aria-selected="false" style="background-color: #5c5c5c"><img
-                                    src="images/MacOS_wordmark_(2017).svg" alt="iOS" width="150" height="20"
+                                    src="images/macOS_wordmark_(2017).svg" alt="iOS" width="150" height="20"
                                     title="Logo"></a>
-                            <a class="nav-link text-dark" id="iOS-tab" data-toggle="pill" href="#iOS" role="tab"
+                            <a class="nav-link text-white" id="iOS-tab" data-toggle="pill" href="#iOS" role="tab"
                                 aria-controls="iOS" aria-selected="false" style="background-color: #333333"><img
                                     src="images/IOS_wordmark_(2017).svg" alt="iOS" width="150" height="20"
                                     title="Logo"></a>
@@ -150,10 +153,10 @@
                                     <div class="card-body text-center">
                                         <h3 class="card-title font-weight-bold">Android客户端 <span
                                                 class="badge badge-pill badge-warning">推荐</span></h3>
-                                        <p class="card-text">支持系统 Android</p>
+                                        <p class="card-text">支持系统 Android/Chrome OS</p>
                                         <p>基于DCloud的web2app框架，运行速度加快，添加原生功能。</p>
                                         <p class="card-text">大小：12.1MB</p>
-                                        <p><a href="https://fanmok.gitee.io/szchenxi_download/晨曦.apk"><button
+                                        <p><a href="https://fanmok.gitee.io/szchenxi_cdn/晨曦.apk"><button
                                                     type="button" class="btn text-white btn-lg"
                                                     style="background-color: #77C159">下载</button></a></p>
                                     </div>
@@ -168,7 +171,7 @@
                                         <h3 class="card-title font-weight-bold">PWA客户端 <span
                                                 class="badge badge-pill badge-warning">推荐</span></h3>
                                         <p class="card-text">支持系统<br>
-                                            Windows/macOS/Linux/Chrome OS/Android/iOS/iPadOS<br>
+                                            Windows/Linux/Linux/Chrome OS/Android/iOS/iPadOS<br>
                                             需要安装支持PWA的浏览器</p>
                                         <p>不受平台限制，一键安装，在线更新，流畅体验<br>PWA应用正在测试，7月发布。</p><a href="pwa.html"><button
                                                 type="button" class="btn text-white btn-lg"
@@ -213,7 +216,7 @@
                                                             aria-selected="false" style="background-color: #5a0fc8"><img
                                                                 src="images/pwalogo.svg" alt="PWA" width="50"
                                                                 height="24" title="Logo" data-dismiss="modal"></a>
-                                                        <a href="https://fanmok.gitee.io/szchenxi_download/晨曦.exe"><button
+                                                        <a href="https://fanmok.gitee.io/szchenxi_cdn/晨曦.exe"><button
                                                                 type="button" class="btn text-white"
                                                                 style="background-color: #0078D6">下载</button></a>
                                                     </div>
@@ -261,6 +264,51 @@
                                                                 height="24" title="Logo" data-dismiss="modal"></a>
                                                         <button type="button" class="btn text-white"
                                                             style="background-color: #5c5c5c" disabled>下载</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">version 1.0 2019/7/3</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="Linux" role="tabpanel" aria-labelledby="Linux-tab">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <h3 class="card-title font-weight-bold">Linux客户端</h3>
+                                        <p class="card-text">支持系统 Linux</p>
+                                        <p>通过nativefier转换，界面清爽，没有浏览器的冗杂，采用chromium内核，运行速度加快。<br>Linux客户端正在测试，7月发布。</p>
+                                        <p><button type="button" class="btn text-white btn-lg" data-toggle="modal"
+                                                data-target="#LinuxCreate" style="background-color: #1793d1" disable>
+                                                敬请期待……
+                                            </button></p>
+                                        <div class="modal fade" id="LinuxCreate" tabindex="-1" role="dialog"
+                                            aria-labelledby="LinuxCreateLabel" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header bg-primary text-white">
+                                                        <h5 class="modal-title" id="LinuxCreateLabel">提示</h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        为什么尝试一下更快，更流畅的PWA呢？（推荐）<br>
+                                                        当然也可以点击下方继续下载
+                                                    </div>
+                                                    <div class="modal-footer center-block">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">关闭</button>
+                                                        <a class="btn text-white" id="PWA-tab" data-toggle="pill"
+                                                            href="#PWA" role="tab" aria-controls="PWA"
+                                                            aria-selected="false" style="background-color: #5a0fc8"><img
+                                                                src="images/pwalogo.svg" alt="PWA" width="50"
+                                                                height="24" title="Logo" data-dismiss="modal"></a>
+                                                        <button type="button" class="btn text-white"
+                                                            style="background-color: #1793d1" disabled>下载</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -331,7 +379,7 @@
                     </div>
                     <hr class="my-4">
                     <p>安装包托管至Gitee码云</p>
-                    <p>PWA和macOS客户端正在测试，7月发布。</p>
+                    <p>PWA和Linux、macOS客户端正在测试，7月发布。</p>
                     <p><a href="https://github.com/fanmok/szchenxi_app/" target="_blank"
                             class="btn btn-lg text-white btn-block" style="background-color: #77C159">移动端项目地址</a></p>
                 </div>
