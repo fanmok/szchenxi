@@ -38,6 +38,10 @@
         .html5plus .html5plus-hide {
             display: none
         }
+
+        .html5pluscopy .html5plus-show {
+            display: none
+        }
     </style>
     <!--pwa-->
     <link rel="manifest" href="manifest.json">
@@ -78,8 +82,8 @@
     <main>
         <section>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 py-5">
+                <div class="row py-5">
+                    <div class="col-lg-8 py-2">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
@@ -110,13 +114,13 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="py-5 d-none d-lg-block">
+                        <div class="py-2">
                             <div class="card text-center">
                                 <div class="card-header" style="background-color: white">
-                                    <div class="d-lg-block d-xl-none"><img src="/images/logo.svg" alt="Logo" width="50"
+                                    <div class="d-xl-none d-lg-block d-md-block d-none"><img src="/images/logo.svg" alt="Logo" width="50"
                                             height="50" title="Logo" align="absmiddle">&nbsp;&nbsp;&nbsp;<img
                                             src="/images/chenxi.svg" alt="晨曦" width="54" height="32" title="Logo"></div>
-                                    <div class="d-lg-none d-xl-block"><img src="/images/logo.svg" alt="Logo" width="50"
+                                    <div class="d-xl-block d-lg-none d-md-none d-block"><img src="/images/logo.svg" alt="Logo" width="50"
                                             height="50" title="Logo" align="absmiddle">
                                         <h5 class="card-title">&nbsp;&nbsp;珠海十中&nbsp;&nbsp;<img src="/images/chenxi.svg"
                                                 alt="晨曦" width="54" height="32" title="Logo">&nbsp;&nbsp;校刊</h5>
@@ -124,93 +128,52 @@
                                 </div>
                                 <div class="card-body" align="center">
                                     <div class="row">
-                                        <div class="col-md-4" align="center">
+                                        <div class="col-lg-4 col-md-2 col-sm-4 col-6">
                                             <a href="newspaper/index.html">
                                                 <p><img src="images/news.png" alt="News" width="50" height="50"
                                                         title="News"><br>校刊</p>
                                             </a>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-lg-4 col-md-2 col-sm-4 col-6">
                                             <a href="activity/index.html">
                                                 <p><img src="images/activity.png" alt="Activity" width="50" height="50"
                                                         title="Activity"><br>活动</p>
                                             </a>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-lg-4 col-md-2 col-sm-4 col-6">
                                             <a href="photowall/index.html">
                                                 <p><img src="images/photo.png" alt="Photo" width="50" height="50"
                                                         title="Photo"><br>照片墙</p>
                                             </a>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-lg-4 col-md-2 col-sm-4 col-6">
                                             <a href="https://www.tgchenxi.cf/">
                                                 <p><img src="images/send.png" alt="Send" width="50" height="50"
                                                         title="Send"><br>投稿</p>
                                             </a>
                                         </div>
-                                        <div class="col-md-4">
-                                            <p class="html5plus-hide btn" onclick="install()"><img src="images/PWA.png"
-                                                    alt="PWA" width="50" height="50" title="PWA"><br>PWA</p>
+                                        <div class="html5plus-hide col-lg-4 col-md-2 col-sm-4 col-6">
+                                            <p onclick="install()"><img src="images/PWA.png" alt="PWA" width="50"
+                                                    height="50" title="PWA"><br>PWA</p>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="html5plus-hide col-lg-4 col-md-2 col-sm-4 col-6">
                                             <a href="app/index.html">
                                                 <p><img src="images/APP.png" alt="APP" width="50" height="50"
                                                         title="APP"><br>客户端</p>
                                             </a>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card d-block d-lg-none">
-                            <div class="card-header" style="background-color: white" align="center">
-                                <div class="d-none d-md-block">
-                                    <img src="/images/logo.svg" alt="Logo" width="50" height="50" title="Logo"
-                                        align="absmiddle">
-                                    <h5 class="card-title">&nbsp;&nbsp;珠海十中&nbsp;&nbsp;<img src="/images/chenxi.svg"
-                                            alt="晨曦" width="54" height="32" title="Logo">&nbsp;&nbsp;校刊</h5>
-                                </div>
-                                <div class="d-block d-md-none">
-                                    <img src="/images/logo.svg" alt="Logo" width="50" height="50" title="Logo"
-                                        align="absmiddle">&nbsp;&nbsp;&nbsp;<img src="/images/chenxi.svg" alt="晨曦"
-                                        width="54" height="32" title="Logo">
-                                </div>
-                            </div>
-                            <div class="card-body" align="center">
-                                <div class="row">
-                                    <div class="col-md-2 col-sm-4 col-6">
-                                        <a href="newspaper/index.html">
-                                            <p><img src="images/news.png" alt="News" width="50" height="50"
-                                                    title="News"><br>校刊</p>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-2 col-sm-4 col-6">
-                                        <a href="activity/index.html">
-                                            <p><img src="images/activity.png" alt="Activity" width="50" height="50"
-                                                    title="Activity"><br>活动</p>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-2 col-sm-4 col-6">
-                                        <a href="photowall/index.html">
-                                            <p><img src="images/photo.png" alt="Photo" width="50" height="50"
-                                                    title="Photo"><br>照片墙</p>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-2 col-sm-4 col-6">
-                                        <a href="https://www.tgchenxi.cf/">
-                                            <p><img src="images/send.png" alt="Send" width="50" height="50"
-                                                    title="Send"><br>投稿</p>
-                                        </a>
-                                    </div>
-                                    <div class="html5plus-hide col-md-2 col-sm-4 col-6">
-                                        <p onclick="install()"><img src="images/PWA.png" alt="PWA" width="50"
-                                                height="50" title="PWA"><br>PWA</p>
-                                    </div>
-                                    <div class="html5plus-hide col-md-2 col-sm-4 col-6">
-                                        <a href="app/index.html">
-                                            <p><img src="images/APP.png" alt="APP" width="50" height="50"
-                                                    title="APP"><br>客户端</p>
-                                        </a>
+                                        <div class="html5plus-show col-lg-4 col-md-2 col-sm-4 col-6">
+                                            <a href="app/index.html">
+                                                <p><img src="images/Share_1190977_easyicon.net.svg" alt="APP" width="50" height="50"
+                                                        title="APP"><br>分享</p>
+                                            </a>
+                                        </div>
+                                        <div class="html5plus-show col-lg-4 col-md-2 col-sm-4 col-6">
+                                            <a href="app/index.html">
+                                                <p><img src="images/MX.svg" alt="APP" width="50" height="50"
+                                                        title="APP"><br>梦星工作室</p>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -313,6 +276,30 @@
         if (navigator.userAgent.indexOf("Html5Plus") > -1) {
             document.body.classList.add("html5plus");
         }
+        else {
+            document.body.classList.add("html5pluscopy");
+        }
+    </script>
+    <!--share-->
+    <script src="https://fanmok.gitee.io/szchenxi_cdn/plusShare.js"></script>
+    <script src="https://fanmok.gitee.io/szchenxi_cdn/social-share.min.js"></script>
+    <script>
+        document.getElementById("share").addEventListener("click", function () {
+            if (navigator.userAgent.indexOf("Html5Plus") > -1) {
+                //5+ 原生分享  
+                window.plusShare({
+                    title: "珠海十中《晨曦》校刊",//应用名字
+                    content: "珠海十中《晨曦》校刊 APP",
+                    href: "https://www.szchenxi.cf/",//分享出去后，点击跳转地址  
+                    thumbs: ["/images/icon.png"] //分享缩略图
+                }, function (result) {
+                    //分享回调  
+                });
+            } else {
+                //跳转到App下载地址
+                window.location.href = "https://www.szchenxi.cf/app/index.html";
+            }
+        });
     </script>
     <!--Google Analytics-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132568926-1"></script>
