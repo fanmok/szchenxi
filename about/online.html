@@ -2,86 +2,63 @@
 <html lang="zh-cmn-Hans">
 
 <head>
+    <!--meta-->
     <meta charset="utf-8">
     <meta http-equiv='Content-Language' content='zh'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#007bff" />
+    <!--title-->
+    <title>线上校刊 | 关于</title>
+    <!--icon-->
+    <link rel="icon" sizes="192x192" href="/images/icon.png">
+    <link href="/favicon.ico" rel="shortcut icon">
+    <!--css-->
     <link rel="stylesheet" href="https://fanmok.gitee.io/szchenxi_cdn/bootstrap.min.css">
-    <script>
-        if (('standalone' in window.navigator) && window.navigator.standalone) {
-            var noddy, remotes = false;
-            document.addEventListener('click', function (event) {
-                noddy = event.target;
-                while (noddy.nodeName !== 'A' && noddy.nodeName !== 'HTML') noddy = noddy.parentNode;
-                if ('href' in noddy && noddy.href.indexOf('http') !== -1 && (noddy.href.indexOf(document.location.host) !== -1 || remotes)) {
-                    event.preventDefault();
-                    document.location.href = noddy.href;
-                }
-            }, false);
-        }
-    </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132568926-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-132568926-1');
-    </script>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-7717011057644549",
-            enable_page_level_ads: true
-        });
-    </script>
+    <!--font-->
     <link href="https://fonts.loli.net/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
-    <title>关于 | 线上校刊</title>
-    <link href="https://www.szchenxi.cf/favicon.ico" rel="shortcut icon">
     <style>
         body,
         html {
             font-family: 'Noto Sans SC', sans-serif;
         }
     </style>
-
+    <!--app-->
     <style>
         .html5plus .html5plus-hide {
             display: none
         }
+
+        .html5pluscopy .html5plus-show {
+            display: none
+        }
     </style>
-    <script>
-        if (navigator.userAgent.indexOf("Html5Plus") > -1) {
-            document.body.classList.add("html5plus");
-        }  
-    </script>
 </head>
 
-<body class='lang-zh page-front' ontouchstart=''>
+<body class='lang-zh page-front vsc-initialized' ontouchstart=''>
     <header class="html5plus-hide">
-        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-            <a href="https://www.szchenxi.cf/" class="navbar-brand"><img
-                    src="https://www.szchenxi.cf/images/logo_white.svg" alt="Logo" width="40" height="40" title="Logo"
-                    align="absmiddle">
-                <img src="https://www.szchenxi.cf/images/chenxi-white.svg" alt="晨曦" width="54" height="32" title="Logo"
-                    align="absmiddle"></a>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary shadow">
+            <a href="/" class="navbar-brand"><img src="/images/logo.svg" alt="Logo" width="40" height="40" title="Logo">
+                &nbsp;&nbsp;
+                <img src="/images/chenxi-white.svg" alt="晨曦" width="54" height="32" title="Logo"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div id="menu" class="collapse navbar-collapse">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="../newspaper/index.html" class="nav-link">校刊</a></li>
-                    <li class="nav-item"><a href="../photo/index.html" class="nav-link">相册</a></li>
+                    <li class="nav-item"><a href="/newspaper/index.html" class="nav-link">校刊</a></li>
+                    <li class="nav-item"><a href="/photo/index.html" class="nav-link">相册</a></li>
                     <li class="nav-item"><a href="https://www.tgchenxi.cf/" class="nav-link">投稿</a></li>
-                    <li class="nav-item"><a href="../app/index.html" class="nav-link">客户端</a></li>
+                    <li class="nav-item"><a href="/app/index.html" class="nav-link">客户端</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">关于</a>
                         <div class="dropdown-menu" aria-labelledby="navbardropdown">
-                            <a class="dropdown-item" href="../about/wxs.html">晨曦文学社</a>
-                            <a class="dropdown-item" href="../about/cx.html">《晨曦》校刊</a>
-                            <a class="dropdown-item" href="../about/online.html">线上校刊</a>
+                            <a class="dropdown-item" href="/about/wxs.html">晨曦文学社</a>
+                            <a class="dropdown-item" href="/about/cx.html">《晨曦》校刊</a>
+                            <a class="dropdown-item" href="/about/online.html">线上校刊</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="../about/studentunion.html">珠海十中学生会</a>
-                            <a class="dropdown-item" href="../about/zhsz.html">珠海市第十中学</a>
+                            <a class="dropdown-item" href="/about/studentunion.html">珠海十中学生会</a>
+                            <a class="dropdown-item" href="/about/zhsz.html">珠海市第十中学</a>
                             <a class="dropdown-item" href="https://www.dreamstar.cf/" target="_blank">梦星工作室</a>
                         </div>
                     </li>
@@ -91,12 +68,11 @@
     </header>
     <main>
         <section>
-            <div class="container py-3">
+            <div class="container py-5">
                 <div class="row pb-3">
-                    <div class="col-lg-3 col-md-4 py-4" align="center">
-                        <img src="https://www.szchenxi.cf/images/logo.svg" alt="Logo" width="200" height="200"
-                            title="Logo">
-                    </div>
+                    <div class="col-lg-3 col-md-4 py-4" align="center"><img
+                            src="https://www.szchenxi.cf/images/logo.svg" alt="Logo" width="200" height="200"
+                            title="Logo"></div>
                     <div class="col-lg-9 col-md-8">
                         <div class="card">
                             <div class="card-body">
@@ -106,12 +82,11 @@
                                     <h5 class="card-header">介绍</h5>
                                     <div class="card-body">
                                         <p class="card-text">一个方便珠海十中学生浏览校刊及学校其他动态的网站。</p>
-                                        <p class="card-text">基于Bootstrap v4.2.1开发。<br>
-                                            主网站托管至Netlify，寄存在GitHub上<a href="https://github.com/fanmok/szchenxi/"
+                                        <p class="card-text">基于Bootstrap v4.2.1开发。<br> 主网站托管至Netlify，寄存在GitHub上<a
+                                                href="https://github.com/fanmok/szchenxi/"
                                                 class="badge badge-pill badge-primary text-white">项目地址</a><br>
-                                            投稿网站托管至000webhost免费服务器，两个服务器均设于美国，连接较慢，请见谅。<br>
-                                            网站采用Netlify DNS和CloudFlare CDN加速，字体采用css.loli.net公共库，优化中国大陆访问体验。<br>
-                                            部分设置文件及安装包托管至Gitee，</p>
+                                            投稿网站托管至000webhost免费服务器，两个服务器均设于美国，连接较慢，请见谅。<br> 网站采用Netlify DNS和CloudFlare
+                                            CDN加速，字体采用css.loli.net公共库，优化中国大陆访问体验。<br> 部分设置文件及安装包托管至Gitee，</p>
                                         <hr>
                                         <p class="card-text">开发和维护：</p>
                                         <h5><a href="wxs.html"
@@ -120,8 +95,8 @@
                                                 class="badge badge-pill badge-primary text-white"
                                                 target="blank">梦星工作室</a></h5>
                                         <h5><a href="https://github.com/fanmok/"
-                                            class="badge badge-pill badge-primary text-white"
-                                            target="blank">莫凡 (fanmok)</a></h5>
+                                                class="badge badge-pill badge-primary text-white" target="blank">莫凡
+                                                (fanmok)</a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -132,38 +107,27 @@
                             <div class="container py-3">
                                 <p>
                                     <h5><span class="badge badge-pill badge-primary font-italic">2019/1/15</span></h5>
-                                    &nbsp;&nbsp;&nbsp;
-                                    网站开始搭建<br>
+                                    &nbsp;&nbsp;&nbsp; 网站开始搭建<br>
                                     <h5><span class="badge badge-pill badge-primary font-italic">2019/1/20</span></h5>
-                                    &nbsp;&nbsp;&nbsp;
-                                    “校刊”栏目正式上线<br>
+                                    &nbsp;&nbsp;&nbsp; “校刊”栏目正式上线<br>
                                     <h5><span class="badge badge-pill badge-primary font-italic">2019/1/20</span></h5>
-                                    &nbsp;&nbsp;&nbsp;
-                                    “关于”内容补充<br>
+                                    &nbsp;&nbsp;&nbsp; “关于”内容补充<br>
                                     <h5><span class="badge badge-pill badge-primary font-italic">2019/1/20</span></h5>
-                                    &nbsp;&nbsp;&nbsp;
-                                    Android客户端正式上线<br>
+                                    &nbsp;&nbsp;&nbsp; Android客户端正式上线<br>
                                     <h5><span class="badge badge-pill badge-primary font-italic">2019/1/31</span></h5>
-                                    &nbsp;&nbsp;&nbsp;
-                                    “相册”栏目正式上线<br>
+                                    &nbsp;&nbsp;&nbsp; “相册”栏目正式上线<br>
                                     <h5><span class="badge badge-pill badge-primary font-italic">2019/1/31</span></h5>
-                                    &nbsp;&nbsp;&nbsp;
-                                    稿件上传功能上线<br>
+                                    &nbsp;&nbsp;&nbsp; 稿件上传功能上线<br>
                                     <h5><span class="badge badge-pill badge-primary font-italic">2019/2/1</span></h5>
-                                    &nbsp;&nbsp;&nbsp;
-                                    “活动”栏目正式上线<br>
+                                    &nbsp;&nbsp;&nbsp; “活动”栏目正式上线<br>
                                     <h5><span class="badge badge-pill badge-primary font-italic">2019/2/1</span></h5>
-                                    &nbsp;&nbsp;&nbsp;
-                                    “通知”栏目正式上线<br>
+                                    &nbsp;&nbsp;&nbsp; “通知”栏目正式上线<br>
                                     <h5><span class="badge badge-pill badge-primary font-italic">2019/6/1</span></h5>
-                                    &nbsp;&nbsp;&nbsp;
-                                    Windows客户端正式上线<br>
+                                    &nbsp;&nbsp;&nbsp; Windows客户端正式上线<br>
                                     <h5><span class="badge badge-pill badge-primary font-italic">2019/6/11</span></h5>
-                                    &nbsp;&nbsp;&nbsp;
-                                    iOS客户端正式上线<br>
+                                    &nbsp;&nbsp;&nbsp; iOS客户端正式上线<br>
                                     <h5><span class="badge badge-pill badge-primary font-italic">2019/7/3</span></h5>
-                                    &nbsp;&nbsp;&nbsp;
-                                    PWA应用上线<br>
+                                    &nbsp;&nbsp;&nbsp; PWA应用上线<br>
                                 </p>
                             </div>
                         </div>
@@ -173,30 +137,24 @@
                             <div class="container py-3">
                                 <div class="card">
                                     <div class="card-header"><span
-                                            class="badge badge-pill badge-warning font-italic">Beta</span>
-                                        2.3 更新内容<span
-                                            class="badge badge-pill badge-welcome font-italic">2019/7/3</span>
-                                    </div>
+                                            class="badge badge-pill badge-warning font-italic">Beta</span> 2.3 更新内容<span
+                                            class="badge badge-pill badge-welcome font-italic">2019/7/3</span></div>
                                     <div class="card-body">
                                         <p class="card-text">网站深层优化<br>加入manifest.json，支持PWA</p>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-header"><span
-                                            class="badge badge-pill badge-danger font-italic">Alpha</span>
-                                        2.2 更新内容<span
-                                            class="badge badge-pill badge-welcome font-italic">2019/6/20</span>
-                                    </div>
+                                            class="badge badge-pill badge-danger font-italic">Alpha</span> 2.2 更新内容<span
+                                            class="badge badge-pill badge-welcome font-italic">2019/6/20</span></div>
                                     <div class="card-body">
                                         <p class="card-text">网站深层优化，并对部分资源进行加速<br>加入share.js</p>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-header"><span
-                                            class="badge badge-pill badge-danger font-italic">Alpha</span>
-                                        2.1 更新内容<span
-                                            class="badge badge-pill badge-welcome font-italic">2019/6/16</span>
-                                    </div>
+                                            class="badge badge-pill badge-danger font-italic">Alpha</span> 2.1 更新内容<span
+                                            class="badge badge-pill badge-welcome font-italic">2019/6/16</span></div>
                                     <div class="card-body">
                                         <p class="card-text">加入viewer.js<br>Android客户端加入更新插件<br>网站托管至Netlify<br>图片引用路过图床
                                         </p>
@@ -204,69 +162,56 @@
                                 </div>
                                 <div class="card">
                                     <div class="card-header"><span
-                                            class="badge badge-pill badge-danger font-italic">Beta</span>
-                                        2.0 更新内容<span
-                                            class="badge badge-pill badge-welcome font-italic">2019/6/11</span>
-                                    </div>
+                                            class="badge badge-pill badge-danger font-italic">Beta</span> 2.0 更新内容<span
+                                            class="badge badge-pill badge-welcome font-italic">2019/6/11</span></div>
                                     <div class="card-body">
                                         <p class="card-text">全新图标，全新界面<br>适配各尺寸屏幕<br>iOS客户端上线</p>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-header"><span
-                                            class="badge badge-pill badge-danger font-italic">Alpha</span>
-                                        1.4 更新内容<span class="badge badge-pill badge-welcome font-italic">2019/6/2</span>
-                                    </div>
+                                            class="badge badge-pill badge-danger font-italic">Alpha</span> 1.4 更新内容<span
+                                            class="badge badge-pill badge-welcome font-italic">2019/6/2</span></div>
                                     <div class="card-body">
                                         <p class="card-text">加入html5plus脚本<br>Android客户端加入下标签栏</p>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-header"><span
-                                            class="badge badge-pill badge-danger font-italic">Alpha</span>
-                                        1.3 更新内容<span class="badge badge-pill badge-welcome font-italic">2019/6/1</span>
-                                    </div>
+                                            class="badge badge-pill badge-danger font-italic">Alpha</span> 1.3 更新内容<span
+                                            class="badge badge-pill badge-welcome font-italic">2019/6/1</span></div>
                                     <div class="card-body">
                                         <p class="card-text">Windows客户端上线<br>引入Google Fonts字体库<br>统一字体为思源黑体</p>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-header"><span
-                                            class="badge badge-pill badge-warning font-italic">Beta</span>
-                                        1.2 更新内容<span
-                                            class="badge badge-pill badge-welcome font-italic">2019/5/20</span>
-                                    </div>
+                                            class="badge badge-pill badge-warning font-italic">Beta</span> 1.2 更新内容<span
+                                            class="badge badge-pill badge-welcome font-italic">2019/5/20</span></div>
                                     <div class="card-body">
                                         <p class="card-text">版块优化，内容升级</p>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-header"><span
-                                            class="badge badge-pill badge-warning font-italic">Beta</span>
-                                        1.1 更新内容<span
-                                            class="badge badge-pill badge-welcome font-italic">2019/4/20</span>
-                                    </div>
+                                            class="badge badge-pill badge-warning font-italic">Beta</span> 1.1 更新内容<span
+                                            class="badge badge-pill badge-welcome font-italic">2019/4/20</span></div>
                                     <div class="card-body">
                                         <p class="card-text">时隔三个月的优化<br>网站托管至000webhost</p>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-header"><span
-                                            class="badge badge-pill badge-warning font-italic">Beta</span>
-                                        1.0 更新内容<span
-                                            class="badge badge-pill badge-welcome font-italic">2019/1/31</span>
-                                    </div>
+                                            class="badge badge-pill badge-warning font-italic">Beta</span> 1.0 更新内容<span
+                                            class="badge badge-pill badge-welcome font-italic">2019/1/31</span></div>
                                     <div class="card-body">
-                                        <p class="card-text">基本框架搭建完成，正式投入使用<br>进一步优化设备兼容性
-                                        </p>
+                                        <p class="card-text">基本框架搭建完成，正式投入使用<br>进一步优化设备兼容性</p>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-header"><span
-                                            class="badge badge-pill badge-danger font-italic">Alpha</span>
-                                        0.6 更新内容<span
-                                            class="badge badge-pill badge-welcome font-italic">2019/1/28</span>
-                                    </div>
+                                            class="badge badge-pill badge-danger font-italic">Alpha</span> 0.6 更新内容<span
+                                            class="badge badge-pill badge-welcome font-italic">2019/1/28</span></div>
                                     <div class="card-body">
                                         <p class="card-text">
                                             结构优化，缩短浏览时间<br>添加多个小部件，实用性更强<br>Android客户端推送功能上线<br>安装包安全加固</p>
@@ -274,52 +219,40 @@
                                 </div>
                                 <div class="card">
                                     <div class="card-header"><span
-                                            class="badge badge-pill badge-danger font-italic">Alpha</span>
-                                        0.5 更新内容<span
-                                            class="badge badge-pill badge-welcome font-italic">2019/1/20</span>
-                                    </div>
+                                            class="badge badge-pill badge-danger font-italic">Alpha</span> 0.5 更新内容<span
+                                            class="badge badge-pill badge-welcome font-italic">2019/1/20</span></div>
                                     <div class="card-body">
-                                        <p class="card-text">
-                                            Android客户端上线<br>网页根据客户端进一步优化</p>
+                                        <p class="card-text"> Android客户端上线<br>网页根据客户端进一步优化</p>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-header"><span
-                                            class="badge badge-pill badge-danger font-italic">Alpha</span>
-                                        0.4 更新内容<span
-                                            class="badge badge-pill badge-welcome font-italic">2019/1/19</span>
-                                    </div>
+                                            class="badge badge-pill badge-danger font-italic">Alpha</span> 0.4 更新内容<span
+                                            class="badge badge-pill badge-welcome font-italic">2019/1/19</span></div>
                                     <div class="card-body">
-                                        <p class="card-text">
-                                            更新header和footer<br>全面优化框架内容<br>目录结构完善</p>
+                                        <p class="card-text"> 更新header和footer<br>全面优化框架内容<br>目录结构完善</p>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header">
-                                        <span class="badge badge-pill badge-danger font-italic">Alpha</span>
-                                        0.3 更新内容<span
-                                            class="badge badge-pill badge-welcome font-italic">2019/1/18</span>
-                                    </div>
+                                    <div class="card-header"><span
+                                            class="badge badge-pill badge-danger font-italic">Alpha</span> 0.3 更新内容<span
+                                            class="badge badge-pill badge-welcome font-italic">2019/1/18</span></div>
                                     <div class="card-body">
                                         <p class="card-text">内容完善，优化版面<br>进一步优化设备兼容性</p>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-header"><span
-                                            class="badge badge-pill badge-danger font-italic">Alpha</span>
-                                        0.2 更新内容<span
-                                            class="badge badge-pill badge-welcome font-italic">2019/1/17</span>
-                                    </div>
+                                            class="badge badge-pill badge-danger font-italic">Alpha</span> 0.2 更新内容<span
+                                            class="badge badge-pill badge-welcome font-italic">2019/1/17</span></div>
                                     <div class="card-body">
                                         <p class="card-text">添加carousel传送带组件<br>index界面美化</p>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-header"><span
-                                            class="badge badge-pill badge-danger font-italic">Alpha</span>
-                                        0.1 更新内容<span
-                                            class="badge badge-pill badge-welcome font-italic">2019/1/15</span>
-                                    </div>
+                                            class="badge badge-pill badge-danger font-italic">Alpha</span> 0.1 更新内容<span
+                                            class="badge badge-pill badge-welcome font-italic">2019/1/15</span></div>
                                     <div class="card-body">
                                         <p class="card-text">初始界面构成<br>参与公测<br>网站托管至GitHub和Gitee（副本）</p>
                                     </div>
@@ -329,22 +262,28 @@
                     </div>
                 </div>
             </div>
-            </div>
-            <hr>
-            </div>
         </section>
     </main>
     <footer class="html5plus-hide text-center bg-dark text-muted py-2">
-        <p class="text-white-50"><a href="../about/cx.html" class="text-white-50">关于我们</a> | <a href="#"
-                class="text-white-50">回到顶部</a>
-            | <a href="../about/online.html" class="text-white-50">更新记录</a></p>
-        <a href="../about/wxs.html" class="text-white-50">
+        <p class="text-white-50"><a href="/about/cx.html" class="text-white-50">关于晨曦</a> | <a href="#"
+                class="text-white-50">回到顶部</a> | <a href="/about/online.html" class="text-white-50">关于网站</a></p>
+        <a href="/about/wxs.html" class="text-white-50">
             <p>Copyright © 晨曦文学社 All rights reserved.</p>
         </a>
     </footer>
+    <!--script-->
     <script src="https://fanmok.gitee.io/szchenxi_cdn/jquery-3.3.1.min.js"></script>
     <script src="https://fanmok.gitee.io/szchenxi_cdn/popper.min.js"></script>
     <script src="https://fanmok.gitee.io/szchenxi_cdn/bootstrap.min.js"></script>
+    <!--app-->
+    <script>
+        if (navigator.userAgent.indexOf("Html5Plus") > -1) {
+            document.body.classList.add("html5plus");
+        }
+        else {
+            document.body.classList.add("html5pluscopy");
+        }
+    </script>
 </body>
 
 </html>

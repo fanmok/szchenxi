@@ -15,6 +15,7 @@
     <!--css-->
     <link rel="stylesheet" href="https://fanmok.gitee.io/szchenxi_cdn/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/viewerjs/1.3.3/viewer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
     <!--font-->
     <link href="https://fonts.loli.net/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
     <style>
@@ -28,6 +29,7 @@
         .html5plus .html5plus-hide {
             display: none
         }
+
         .html5pluscopy .html5plus-show {
             display: none
         }
@@ -37,10 +39,9 @@
 <body class='lang-zh page-front vsc-initialized' ontouchstart=''>
     <header class="html5plus-hide">
         <nav class="navbar navbar-expand-md navbar-dark bg-primary shadow">
-            <a href="/" class="navbar-brand"><img src="/images/logo.svg"
-                    alt="Logo" width="40" height="40" title="Logo"> &nbsp;&nbsp;
-                <img src="/images/chenxi-white.svg" alt="晨曦" width="54" height="32"
-                    title="Logo"></a>
+            <a href="/" class="navbar-brand"><img src="/images/logo.svg" alt="Logo" width="40" height="40" title="Logo">
+                &nbsp;&nbsp;
+                <img src="/images/chenxi-white.svg" alt="晨曦" width="54" height="32" title="Logo"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -85,7 +86,7 @@
         if (navigator.userAgent.indexOf("Html5Plus") > -1) {
             document.body.classList.add("html5plus");
         }
-        else{
+        else {
             document.body.classList.add("html5pluscopy");
         }
     </script>
@@ -107,39 +108,15 @@
     <script src="https://fanmok.gitee.io/szchenxi_cdn/social-share.min.js"></script>
     <script>
         document.getElementById("share").addEventListener("click", function () {
-            if (navigator.userAgent.indexOf("Html5Plus") > -1) {
-                //5+ 原生分享  
-                window.plusShare({
-                    title: "徽常出色",//应用名字
-                    content: "珠海十中《晨曦》校刊 APP",
-                    href: "https://www.szchenxi.cf/activity/huichangchuse.html",//分享出去后，点击跳转地址  
-                    thumbs: ["/images/icon.png"] //分享缩略图 
-                }, function (result) {
-                    //分享回调  
-                });
-            } else {
-                //跳转到App下载地址
-                window.location.href = "https://www.szchenxi.cf/app/index.html";
-            }
-        });
-    </script>
-    <!--Google Analytics-->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132568926-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-132568926-1');
-    </script>
-    <!--Google AdSense-->
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-7717011057644549",
-            enable_page_level_ads: true
+            //5+ 原生分享  
+            window.plusShare({
+                title: "珠海十中《晨曦》校刊",//应用名字
+                content: "珠海十中《晨曦》校刊 APP",
+                href: "https://www.szchenxi.cf/",//分享出去后，点击跳转地址  
+                thumbs: ["/images/icon.png"] //分享缩略图 
+            }, function (result) {
+                //分享回调  
+            });
         });
     </script>
 </body>
