@@ -142,6 +142,10 @@
                                 aria-controls="iOS" aria-selected="false" style="background-color: #333333"><img
                                     src="images/IOS_wordmark_(2017).svg" alt="iOS" width="150" height="20"
                                     title="Logo"></a>
+                            <a class="nav-link text-white" id="Google-tab" data-toggle="pill" href="#Google" role="tab"
+                                aria-controls="Google" aria-selected="false" style="background-color: #FBBC05"><img
+                                    src="images/Google_2015_logo.svg" alt="Google" width="150" height="20"
+                                    title="Logo"></a>
                         </div>
                     </div>
                     <div class="col-md-9">
@@ -172,7 +176,7 @@
                                         <p class="card-text">支持系统<br>
                                             Windows/Linux/Linux/Chrome OS/Android/iOS/iPadOS<br>
                                             需要安装支持PWA的浏览器</p>
-                                        <p>不受平台限制，一键安装，在线更新，流畅体验<br>PWA应用正在测试，7月发布。</p><a href="pwa.html"><button
+                                        <p>不受平台限制，一键安装，在线更新，流畅体验</p><a href="pwa.html"><button
                                                 type="button" class="btn text-white btn-lg"
                                                 style="background-color: #5a0fc8">开启</button></a></p>
                                     </div>
@@ -309,7 +313,8 @@
                                                             aria-selected="false" style="background-color: #5a0fc8"><img
                                                                 src="images/pwalogo.svg" alt="PWA" width="50"
                                                                 height="24" title="Logo" data-dismiss="modal"></a>
-                                                        <a href="https://www.icloud.com/#iclouddrive/0-fUbNgnXhZI4hFXLbyU9vgNw"><button
+                                                        <a
+                                                            href="https://www.icloud.com/#iclouddrive/0-fUbNgnXhZI4hFXLbyU9vgNw"><button
                                                                 type="button" class="btn text-white"
                                                                 style="background-color: #5c5c5c">下载</button></a>
                                                     </div>
@@ -368,6 +373,55 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="tab-pane fade" id="Google" role="tabpanel" aria-labelledby="Google-tab">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <h3 class="card-title font-weight-bold">Google Chrome应用</h3>
+                                        <p class="card-text">支持系统 Windows/Linux/Linux/Chrome OS (Only Chrome)</p>
+                                        <p>通过apk转换而来，在电脑上享受手机端的体验</p>
+                                        <p class="card-text">大小：4.12MB</p>
+                                        <p><button type="button" class="btn text-white btn-lg" data-toggle="modal"
+                                                data-target="#GoogleCreate" style="background-color: #FBBC05">
+                                                安装
+                                            </button></p>
+                                        <div class="modal fade" id="GoogleCreate" tabindex="-1" role="dialog"
+                                            aria-labelledby="GoogleCreateLabel" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header bg-primary text-white">
+                                                        <h5 class="modal-title" id="GoogleCreateLabel">提示</h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        此应用只允许在Google Chrome上运行，其他浏览器请使用PWA版本。<br>
+                                                        由于兼容性问题，使用中可能会出现故障，重新启动即可。
+                                                    </div>
+                                                    <div class="modal-footer center-block">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">关闭</button>
+                                                        <a class="btn text-white" id="PWA-tab" data-toggle="pill"
+                                                            href="#PWA" role="tab" aria-controls="PWA"
+                                                            aria-selected="false" style="background-color: #5a0fc8"><img
+                                                                src="images/pwalogo.svg" alt="PWA" width="50"
+                                                                height="24" title="Logo" data-dismiss="modal"></a>
+                                                        <a href="https://www.google.cn/chrome/" target="_blank"><button type="button"
+                                                                class="btn btn-primary text-white">下载Chrome</button></a>
+                                                        <a href="https://fanmok.gitee.io/szchenxi_cdn/晨曦.crx"><button
+                                                                type="button" class="btn text-white"
+                                                                style="background-color: #FBBC05">安装</button></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">version 1.5 2019/7/21</small>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -404,25 +458,6 @@
         if (navigator.userAgent.indexOf("Html5Plus") > -1) {
             document.body.classList.add("html5plus");
         }
-    </script>
-    <!--Google Analytics-->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132568926-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-132568926-1');
-    </script>
-    <!--Google AdSense-->
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-7717011057644549",
-            enable_page_level_ads: true
-        });
     </script>
 </body>
 
